@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08743d">
+<link rel="icon" href="data:,">
+<title>Play It Again Sports San Diego — In-Store TV</title>
+<script>
+// Fetch fresh settings and assets each page load, including automatic refreshes.
+window.TV_VERSION = Date.now();
+const css = document.createElement('link'); css.rel = 'stylesheet';
+css.href = 'style.css?v=' + window.TV_VERSION; document.head.appendChild(css);
+const config = document.createElement('script'); config.src = 'config.js?v=' + window.TV_VERSION;
+config.onload = () => { const start = () => { const player = document.createElement('script');
+player.src = 'player.js?v=' + window.TV_VERSION; document.head.appendChild(player); };
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true}); else start(); };
+document.head.appendChild(config);
+</script>
+</head>
+<body>
+<main id="screen" aria-label="Store videos"></main>
+<aside id="ticker" aria-label="Store information"><div id="ticker-track"></div></aside>
+<div id="status" role="status"></div>
+</body>
+</html>
