@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T23:58:22+00:00",
+ "updated": "2026-11-07T00:15:06+00:00",
  "buoys": [
   {
    "waveFt": 4.3,
@@ -17,7 +17,7 @@
    "dirDeg": 298.0,
    "dir": "WNW",
    "waterF": 76,
-   "time": "2026-11-06T22:56:00+00:00",
+   "time": "2026-11-06T23:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
@@ -34,10 +34,10 @@
   {
    "waveFt": 5.2,
    "periodS": 13,
-   "dirDeg": 277.0,
-   "dir": "W",
+   "dirDeg": 250.0,
+   "dir": "WSW",
    "waterF": 76,
-   "time": "2026-11-06T23:26:00+00:00",
+   "time": "2026-11-06T23:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -47,12 +47,12 @@
    "name": "Del Mar",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 74,
+   "tempF": 75,
    "short": "Sunny"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "10",
+   "windMph": "5",
    "windDir": "W",
    "tempF": 76,
    "short": "Sunny"
@@ -61,7 +61,7 @@
    "name": "La Jolla",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 76,
+   "tempF": 75,
    "short": "Sunny"
   },
   {
@@ -75,7 +75,7 @@
    "name": "Ocean Beach",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 76,
+   "tempF": 75,
    "short": "Sunny"
   }
  ],
