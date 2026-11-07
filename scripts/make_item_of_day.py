@@ -20,6 +20,7 @@ def title_case(name):
         low = w.lower()
         if low.startswith('w/') and i: out.append('w/' + title_case(w[2:]) if len(w) > 2 else 'w/'); continue
         if i and low in SMALL: out.append(low)
+        elif w.isalpha() and w.isupper() and len(w) > 3: out.append(w[:1] + w[1:].lower())
         elif any(ch.isdigit() for ch in w) or (w.isupper() and len(w) > 1) or any(ch.isupper() for ch in w[1:]): out.append(w)
         else: out.append('-'.join(p[:1].upper() + p[1:] for p in w.split('-')))
     return ' '.join(out)
