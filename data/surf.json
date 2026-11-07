@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-07T00:15:06+00:00",
+ "updated": "2026-11-07T01:32:44+00:00",
  "buoys": [
   {
    "waveFt": 4.3,
-   "periodS": 13,
-   "dirDeg": 280.0,
+   "periodS": 14,
+   "dirDeg": 270.0,
    "dir": "W",
    "waterF": 76,
-   "time": "2026-11-06T23:26:00+00:00",
+   "time": "2026-11-07T00:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 3.3,
-   "periodS": 13,
-   "dirDeg": 298.0,
+   "periodS": 9,
+   "dirDeg": 285.0,
    "dir": "WNW",
    "waterF": 76,
-   "time": "2026-11-06T23:26:00+00:00",
+   "time": "2026-11-07T00:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.6,
+   "waveFt": 4.9,
    "periodS": 13,
-   "dirDeg": 277.0,
+   "dirDeg": 273.0,
    "dir": "W",
    "waterF": 76,
-   "time": "2026-11-06T23:26:00+00:00",
+   "time": "2026-11-07T00:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 5.2,
    "periodS": 13,
-   "dirDeg": 250.0,
-   "dir": "WSW",
+   "dirDeg": 277.0,
+   "dir": "W",
    "waterF": 76,
-   "time": "2026-11-06T23:56:00+00:00",
+   "time": "2026-11-07T00:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,37 +45,37 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "10",
-   "windDir": "W",
-   "tempF": 75,
+   "windMph": "5",
+   "windDir": "NW",
+   "tempF": 74,
    "short": "Sunny"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
-   "windDir": "W",
-   "tempF": 76,
+   "windDir": "NW",
+   "tempF": 73,
    "short": "Sunny"
   },
   {
    "name": "La Jolla",
-   "windMph": "10",
-   "windDir": "W",
-   "tempF": 75,
+   "windMph": "5",
+   "windDir": "NW",
+   "tempF": 73,
    "short": "Sunny"
   },
   {
    "name": "Pacific Beach",
    "windMph": "10",
-   "windDir": "W",
-   "tempF": 76,
+   "windDir": "NW",
+   "tempF": 75,
    "short": "Sunny"
   },
   {
    "name": "Ocean Beach",
    "windMph": "10",
-   "windDir": "W",
-   "tempF": 75,
+   "windDir": "NW",
+   "tempF": 74,
    "short": "Sunny"
   }
  ],
