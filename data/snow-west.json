@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:12:48+00:00",
+ "updated": "2026-11-07T13:26:45+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -32,9 +32,9 @@
   {
    "name": "Brian Head",
    "area": "Brian Head, UT",
-   "tempF": 25,
-   "period": "Overnight",
-   "short": "Mostly Clear",
+   "tempF": 43,
+   "period": "Today",
+   "short": "Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-06"
@@ -42,9 +42,9 @@
   {
    "name": "Park City",
    "area": "Park City, UT",
-   "tempF": 30,
-   "period": "Overnight",
-   "short": "Partly Cloudy",
+   "tempF": 47,
+   "period": "Today",
+   "short": "Mostly Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 3,
    "snowDepthDate": "2026-11-06"
