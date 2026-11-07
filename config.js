@@ -79,13 +79,15 @@ window.TV_CONFIG = {
     date: '2026-11-27',                       // sale day, YYYY-MM-DD
     hideAfter: '2026-11-27T19:00:00-08:00',   // stop showing after 7pm PT that day
     image: 'images/black-friday-art.jpg',
-    offers: [                                 // first line shows biggest
+    saveTheDate: 'Save the date',             // shown every day BEFORE the sale (no discounts)
+    showOffersOnSaleDay: true,                // true = on Fri 11/27 (PT) show the offers below; false = keep "Save the date"
+    offers: [                                 // ONLY shown on the sale day; first line shows biggest
       { deal: '50% off one item', when: '10am–1pm' },
       { deal: '30% off one item', when: 'the rest of the day' },
     ],
     hours: 'Open 10am–7pm',
-    note: 'Closed Thanksgiving, Thu 11/26',
-    finePrint: 'Restrictions apply. See store for details.',
+    note: 'Closed Thanksgiving, Thu 11/26',  // shown before the sale day
+    finePrint: 'Restrictions apply. See store for details.',  // sale day only
   },
   // ---- "We're buying right now" slide (widget 'buying') ----
   // Edit the wants list each season: one quoted item per line.

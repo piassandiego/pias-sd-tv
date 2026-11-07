@@ -70,3 +70,4 @@ ul.wants li::before { content: '◆'; color: #FF6600; position: absolute; left: 
 .iod-meta { font-size: 4.4vh; font-weight: 800; } .iod-sku { font-size: 5vh; } .iod-sku b { color: #EC008C; }
 .iod-here { font-size: 3vh; color: #bbb; }
 .live-item h1 { font-size: 6.4vh; }
+.bf-std { font-size: 7vh; font-weight: 900; color: #EC008C; text-transform: uppercase; line-height: 1.05; }

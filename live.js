@@ -82,12 +82,14 @@
       const c = cfg().blackFriday; if (!c) return null;
       if (Date.now() > new Date(c.hideAfter).getTime()) return null; // auto-hide after the sale ends
       const today = laDate(), days = Math.round((Date.parse(c.date) - Date.parse(today)) / 86400000);
+      const saleDay = days <= 0 && c.showOffersOnSaleDay === true; // offers only on the day itself
       const when = days > 1 ? `${days} days to go` : days === 1 ? 'Tomorrow!' : 'Today!';
       return `<div class="bf"><img class="bf-art" src="${esc(c.image)}" alt=""><div class="bf-text">
         <div class="live-kicker">${esc(c.label)}</div><div class="bf-count">${esc(when)}</div>
-        ${c.offers.map((o, i) => `<div class="bf-offer ${i ? '' : 'big'}"><b>${esc(o.deal)}</b> ${esc(o.when)}</div>`).join('')}
-        <div class="bf-hours">${esc(c.hours)}</div><div class="bf-note">${esc(c.note)}</div>
-        <div class="bf-fine">${esc(c.finePrint)}</div>${logo}</div></div>`;
+        ${saleDay ? (c.offers || []).map((o, i) => `<div class="bf-offer ${i ? '' : 'big'}"><b>${esc(o.deal)}</b> ${esc(o.when)}</div>`).join('')
+          : `<div class="bf-std">${esc(c.saveTheDate || 'Save the date')}</div>`}
+        <div class="bf-hours">${esc(c.hours)}</div>${saleDay ? '' : `<div class="bf-note">${esc(c.note)}</div>`}
+        ${saleDay && c.finePrint ? `<div class="bf-fine">${esc(c.finePrint)}</div>` : ''}${logo}</div></div>`;
     },
     buying() {
       const c = cfg().buying; if (!c || !c.wants || !c.wants.length) return null;
