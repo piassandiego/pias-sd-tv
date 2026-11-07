@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#08743d">
+<meta name="theme-color" content="#EC008C">
 <link rel="icon" href="data:,">
 <title>Play It Again Sports San Diego — In-Store TV</title>
 <script>
@@ -12,8 +12,9 @@ window.TV_VERSION = Date.now();
 const css = document.createElement('link'); css.rel = 'stylesheet';
 css.href = 'style.css?v=' + window.TV_VERSION; document.head.appendChild(css);
 const config = document.createElement('script'); config.src = 'config.js?v=' + window.TV_VERSION;
-config.onload = () => { const start = () => { const player = document.createElement('script');
-player.src = 'player.js?v=' + window.TV_VERSION; document.head.appendChild(player); };
+config.onload = () => { const start = () => { const liveJs = document.createElement('script');
+liveJs.src = 'live.js?v=' + window.TV_VERSION; liveJs.onload = liveJs.onerror = () => { const player = document.createElement('script');
+player.src = 'player.js?v=' + window.TV_VERSION; document.head.appendChild(player); }; document.head.appendChild(liveJs); };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true}); else start(); };
 document.head.appendChild(config);
 </script>

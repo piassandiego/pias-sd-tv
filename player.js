@@ -1,7 +1,8 @@
 (() => {
   'use strict';
   const cfg = window.TV_CONFIG || {};
-  const list = (cfg.playlist || []).filter(item => item && item.src);
+  const list = (cfg.playlist || []).filter(item => item && (item.src || (item.type === 'live' && item.widget)));
+  const live = window.TV_LIVE;
   const screen = document.getElementById('screen');
   const status = document.getElementById('status');
   if (cfg.tickerPosition === 'top') document.body.classList.add('ticker-top');
@@ -29,6 +30,13 @@
   let current = null, next = null, index = 0, timer, failures = 0;
   function prepare(i) {
     const item = list[i];
+    if (item.type === 'live') {
+      const el = document.createElement('div'); el.className = 'media live';
+      const entry = {el, i, failed: false};
+      entry.ready = (live ? live.render(item.widget, el) : Promise.resolve(false))
+        .then(ok => { if (!ok) entry.failed = true; return ok; }, () => { entry.failed = true; return false; });
+      screen.appendChild(el); return entry;
+    }
     const el = document.createElement(item.type === 'image' ? 'img' : 'video');
     el.className = 'media';
     const entry = {el, i, failed: false};
@@ -60,8 +68,20 @@
     if (old && old !== current) old.el.remove();
     status.textContent = '';
     if (current.failed) { timer = setTimeout(() => advance(true), 0); return; }
-    current.el.classList.add('active');
     const entry = current;
+    if (list[index].type === 'live') {
+      // Live slides: wait for data (usually cached); skip silently if it failed.
+      entry.ready.then(ok => {
+        if (current !== entry) return;
+        if (!ok) { advance(true); return; }
+        entry.el.classList.add('active');
+        timer = setTimeout(() => advance(false), Math.max(1, Number(list[index].duration) || 12) * 1000);
+      });
+      next = prepare((index + 1) % list.length);
+      window.TV_PLAYER_STATE = {index, src: 'live:' + list[index].widget};
+      return;
+    }
+    current.el.classList.add('active');
     if (list[index].type === 'image') {
       timer = setTimeout(() => advance(false), Math.max(1, Number(list[index].duration) || 10) * 1000);
     } else {

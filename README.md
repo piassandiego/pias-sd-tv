@@ -1,6 +1,6 @@
 # Play It Again Sports San Diego TV
 
-Open https://piassandiego.github.io/pias-sd-tv/ on your TV. Videos loop automatically, muted. The green ticker sits outside the video so it never hides the store footer. Click the screen or press **F** for full screen (if the browser supports it).
+Open https://piassandiego.github.io/pias-sd-tv/ on your TV. Videos loop automatically, muted. The ticker (black band, pink edge) sits outside the video so it never hides the store footer. Click the screen or press **F** for full screen (if the browser supports it).
 
 ## TV options
 - **Fire TV Stick:** install/open the Silk browser and enter the address. Bookmark it and use its full-screen option if available.
@@ -20,3 +20,9 @@ Keep the device online. It refreshes every four hours to pick up changes. Refres
 Change `tickerSpeed` for faster/slower scrolling; `tickerPosition` can be `'bottom'` or `'top'`. Change `reloadHours` for the automatic refresh interval, or use 0 to disable it. Leave the HTML, CSS and player files alone for normal content changes.
 
 No sound is intentional: browsers require muted playback for reliable autoplay. A browser's first visit or device power-saving settings may still require a click. If playback stops, refresh and check Wi-Fi. Missing/broken media are skipped automatically.
+
+## Live info slides (weather, snow, surf)
+- `live.js` draws `{ type: 'live', widget: '...' }` slides from `data/weather.json`, `data/snow-socal.json`, `data/snow-west.json`, `data/surf.json`.
+- `.github/workflows/update-data.yml` runs `scripts/update_data.py` every 30 minutes (and from the Actions tab → Run workflow) and commits the JSON only when it changed. NOAA buoy files block browser requests, so data is fetched server-side.
+- Sources (public domain, free): National Weather Service (api.weather.gov), NOAA NDBC / CDIP buoys, USDA NRCS SNOTEL snow depth. Snow numbers are mountain weather, not official resort reports.
+- If a data file is missing or broken, that slide is skipped automatically.
