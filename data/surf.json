@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-07T02:43:35+00:00",
+ "updated": "2026-11-07T03:43:30+00:00",
  "buoys": [
   {
-   "waveFt": 4.6,
-   "periodS": 13,
-   "dirDeg": 264.0,
+   "waveFt": 4.3,
+   "periodS": 14,
+   "dirDeg": 275.0,
    "dir": "W",
    "waterF": 76,
-   "time": "2026-11-07T02:26:00+00:00",
+   "time": "2026-11-07T02:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 3.6,
-   "periodS": 8,
-   "dirDeg": 289.0,
+   "waveFt": 3.3,
+   "periodS": 13,
+   "dirDeg": 294.0,
    "dir": "WNW",
    "waterF": 76,
-   "time": "2026-11-07T01:56:00+00:00",
+   "time": "2026-11-07T02:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
    "waveFt": 5.2,
-   "periodS": 14,
-   "dirDeg": 267.0,
+   "periodS": 13,
+   "dirDeg": 278.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-07T02:26:00+00:00",
+   "time": "2026-11-07T02:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 5.6,
-   "periodS": 14,
-   "dirDeg": 273.0,
+   "periodS": 13,
+   "dirDeg": 270.0,
    "dir": "W",
-   "waterF": 76,
-   "time": "2026-11-07T02:26:00+00:00",
+   "waterF": 75,
+   "time": "2026-11-07T03:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -47,35 +47,35 @@
    "name": "Del Mar",
    "windMph": "5",
    "windDir": "NW",
-   "tempF": 74,
+   "tempF": 73,
    "short": "Mostly Clear"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
-   "windDir": "NW",
-   "tempF": 72,
+   "windDir": "NE",
+   "tempF": 70,
    "short": "Mostly Clear"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
-   "windDir": "NW",
-   "tempF": 72,
+   "windDir": "N",
+   "tempF": 71,
    "short": "Mostly Clear"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
-   "windDir": "N",
-   "tempF": 74,
+   "windDir": "NE",
+   "tempF": 72,
    "short": "Mostly Clear"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
-   "windDir": "N",
-   "tempF": 74,
+   "windDir": "NE",
+   "tempF": 72,
    "short": "Mostly Clear"
   }
  ],

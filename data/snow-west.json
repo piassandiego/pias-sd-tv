@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:43:32+00:00",
+ "updated": "2026-11-07T03:43:26+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -24,7 +24,7 @@
    "area": "South Lake Tahoe, CA",
    "tempF": 30,
    "period": "Tonight",
-   "short": "Mostly Clear",
+   "short": "Clear",
    "snow3dayIn": 0.0,
    "snowDepthIn": 2,
    "snowDepthDate": "2026-11-05"
@@ -34,7 +34,7 @@
    "area": "Brian Head, UT",
    "tempF": 25,
    "period": "Tonight",
-   "short": "Mostly Clear",
+   "short": "Clear",
    "snow3dayIn": 0.0,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-05"
