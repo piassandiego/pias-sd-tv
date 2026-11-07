@@ -82,8 +82,8 @@ window.TV_CONFIG = {
     saveTheDate: 'Save the date',             // shown every day BEFORE the sale (no discounts)
     showOffersOnSaleDay: true,                // true = on Fri 11/27 (PT) show the offers below; false = keep "Save the date"
     offers: [                                 // ONLY shown on the sale day; first line shows biggest
-      { deal: '50% off one item', when: '10am–1pm' },
-      { deal: '30% off one item', when: 'the rest of the day' },
+      { deal: '50% Off One Item', when: '10am–1pm' },
+      { deal: '30% Off One Item', when: 'the rest of the day' },
     ],
     hours: 'Open 10am–7pm',
     note: 'Closed Thanksgiving, Thu 11/26',  // shown before the sale day
@@ -91,9 +91,10 @@ window.TV_CONFIG = {
   },
   // ---- "We're buying right now" slide (widget 'buying') ----
   // Edit the wants list each season: one quoted item per line.
+  // Style: big titles use Title Case (lowercase a, an, the, at, of, for, to, in, on, or, and, by unless first).
   buying: {
     kicker: "We're buying right now",
-    title: 'We pay cash or trade for your gear',
+    title: 'We Pay Cash or Trade for Your Gear',
     wants: [
       'Skis, snowboards, boots & bindings',
       'Ice & roller hockey skates',
@@ -102,12 +103,12 @@ window.TV_CONFIG = {
       'Golf clubs',
       'Fitness equipment',
     ],
-    cta: 'Bring it in today',
+    cta: 'Bring It In Today',
     hours: 'Mon–Fri 10–7 · Sat 10–6 · Sun 11–5',
   },
   // ---- Text-to-join slide (widget 'textjoin') ----
   textJoin: {
-    lead: 'Get deals & trade-in offers by text',
+    lead: 'Get Deals & Trade-In Offers by Text',
     keyword: 'TRADEIN',
     number: '578-277',
     finePrint: 'Msg & data rates may apply. Reply STOP to opt out.',
@@ -116,13 +117,13 @@ window.TV_CONFIG = {
   // Quotes rotate each time the slide plays. Use exact review text, first name + last initial.
   reviews: {
     kicker: 'Google reviews',
-    title: '4.3 ★ on Google · 220+ reviews',
+    title: '4.3 ★ on Google · 220+ Reviews',
     quotes: [
       { text: 'Stellar service with tons and tons of goodies!', name: 'Tim R.' },
       { text: 'Always super helpful and informative', name: 'Ken W.' },
     ],
     qr: 'images/qr-google-review.png',        // opens Google "write a review" for our store
-    qrLabel: 'Scan to leave us a review',
+    qrLabel: 'Scan to Leave Us a Review',
   },
   // Change the words inside quotes; add/remove whole lines for messages.
   tickerMessages: [

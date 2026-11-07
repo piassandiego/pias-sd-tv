@@ -42,7 +42,7 @@
     weather(d) {
       const c = d.current, t = d.today;
       if (c.tempF == null || !d.outlook || !d.outlook.length) return null;
-      return header(d.place, 'Weather at the store', d) + `<div class="wx-main">
+      return header(d.place, 'Weather at the Store', d) + `<div class="wx-main">
         <div class="wx-now"><div class="wx-temp">${n(c.tempF)}°</div><div class="wx-text">${n(c.text)}</div></div>
         <div class="wx-facts"><div><span>Today</span><b>${n(t.high)}° / ${n(t.low)}°</b></div>
         <div><span>Wind</span><b>${n(c.windDir)} ${n(c.windMph)} mph</b></div>
@@ -60,18 +60,18 @@
         <td>${n(r.short)}</td><td class="num hot">${n(r.snow3dayIn)}"</td>${depth ? `<td class="num">${r.snowDepthIn != null ? esc(r.snowDepthIn) + '"' : '–'}</td>` : ''}</tr>`).join('')}
         </tbody></table><footer class="live-src">Mountain weather &amp; snowfall: National Weather Service (not official resort reports)${depth ? ' · *Snow depth: USDA NRCS SNOTEL station near resort' : ''}</footer>`;
     },
-    'snow-socal': d => widgets.snow(d, 'SoCal snow report', 'Big Bear · Snow Valley · Mountain High'),
-    'snow-west': d => widgets.snow(d, 'Western snow report', 'Mammoth · Tahoe · Utah'),
+    'snow-socal': d => widgets.snow(d, 'SoCal Snow Report', 'Big Bear · Snow Valley · Mountain High'),
+    'snow-west': d => widgets.snow(d, 'Western Snow Report', 'Mammoth · Tahoe · Utah'),
     surf(d) {
       if (!d.buoys || !d.buoys.length) return null;
       const water = d.buoys.map(b => b.waterF).find(v => v != null);
-      return header('Buoys · wind at the beach', 'San Diego surf', d) + `<div class="surf">
+      return header('Buoys · wind at the beach', 'San Diego Surf', d) + `<div class="surf">
         <table class="snow buoys"><thead><tr><th>Buoy</th><th>Waves</th><th>Period</th><th>Swell</th></tr></thead><tbody>
         ${d.buoys.slice(0, 4).map(b => `<tr><td><b>${esc(b.name)}</b></td><td class="num hot">${n(b.waveFt)} ft</td>
         <td class="num">${n(b.periodS)} s</td><td class="num">${n(b.dir)}</td></tr>`).join('')}</tbody></table>
         <div class="surf-side">${water != null ? `<div class="water"><span>Water</span><b>${esc(water)}°F</b></div>` : ''}
         <div class="spots">${(d.spots || []).map(s => `<div><span>${esc(s.name)}</span><b>${esc(s.windDir)} ${esc(s.windMph)} mph</b></div>`).join('')}</div>
-        <div class="qr"><img src="${SURFLINE_QR}" alt=""><div>Full forecast:<br><b>Surfline San Diego</b></div></div></div></div>
+        <div class="qr"><img src="${SURFLINE_QR}" alt=""><div>Full Forecast:<br><b>Surfline San Diego</b></div></div></div></div>
         <footer class="live-src">${esc(d.source)}</footer>`;
     },
   };
@@ -83,7 +83,7 @@
       if (Date.now() > new Date(c.hideAfter).getTime()) return null; // auto-hide after the sale ends
       const today = laDate(), days = Math.round((Date.parse(c.date) - Date.parse(today)) / 86400000);
       const saleDay = days <= 0 && c.showOffersOnSaleDay === true; // offers only on the day itself
-      const when = days > 1 ? `${days} days to go` : days === 1 ? 'Tomorrow!' : 'Today!';
+      const when = days > 1 ? `${days} Days to Go` : days === 1 ? 'Tomorrow!' : 'Today!';
       return `<div class="bf"><img class="bf-art" src="${esc(c.image)}" alt=""><div class="bf-text">
         <div class="live-kicker">${esc(c.label)}</div><div class="bf-count">${esc(when)}</div>
         ${saleDay ? (c.offers || []).map((o, i) => `<div class="bf-offer ${i ? '' : 'big'}"><b>${esc(o.deal)}</b> ${esc(o.when)}</div>`).join('')
