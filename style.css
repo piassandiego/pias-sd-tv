@@ -39,3 +39,34 @@ table.snow .num { font-weight: 900; white-space: nowrap; } table.snow .hot { col
 .water b { font-size: 9vh; color: #FF6600; line-height: 1; }
 .spots { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2vh 1.5vw; } .spots b { font-size: 3.4vh; }
 .qr { display: flex; align-items: center; gap: 1.5vw; font-size: 2.6vh; } .qr img { width: 15vh; height: 15vh; background: #fff; padding: .6vh; }
+/* Store promo slides */
+.live-logo { height: 11vh; width: auto; }
+.bf { flex: 1; display: flex; gap: 3.5vw; align-items: center; min-height: 0; }
+.bf-art { height: 100%; max-height: 74vh; aspect-ratio: 1; object-fit: cover; border: .5vh solid #EC008C; }
+.bf-text { flex: 1; display: flex; flex-direction: column; gap: 1.4vh; }
+.bf-count { font-size: 10vh; font-weight: 900; color: #FF6600; line-height: 1; }
+.bf-offer { font-size: 3.6vh; } .bf-offer b { color: #EC008C; font-size: 4.6vh; } .bf-offer.big b { font-size: 6vh; }
+.bf-hours { font-size: 3.8vh; font-weight: 800; } .bf-note { font-size: 3vh; color: #FF6600; font-weight: 700; }
+.bf-fine { font-size: 2.2vh; color: #bbb; } .bf-text .live-logo { height: 8vh; align-self: flex-start; margin-top: 1vh; }
+ul.wants { columns: 2; column-gap: 4vw; margin: 0; padding: 0; list-style: none; font-size: 4.6vh; font-weight: 800; }
+ul.wants li { break-inside: avoid; padding: 1vh 0 1vh 1.4em; position: relative; }
+ul.wants li::before { content: '◆'; color: #FF6600; position: absolute; left: 0; }
+.promo-foot { margin-top: auto; display: flex; justify-content: space-between; align-items: center; background: #EC008C; padding: 2vh 2vw; border-radius: 1.2vh; }
+.promo-foot b { font-size: 5.4vh; } .promo-foot span { font-size: 3.4vh; font-weight: 700; }
+.tj { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 1vh; }
+.tj-lead { font-size: 5vh; font-weight: 800; color: #FF6600; margin: 2vh 0; }
+.tj-big { font-size: 15vh; font-weight: 900; line-height: 1.05; } .tj-big span { color: #EC008C; } .tj-big span.o { color: #FF6600; }
+.tj-fine { margin-top: 4vh; font-size: 2.6vh; color: #bbb; }
+.rv { flex: 1; display: flex; align-items: center; gap: 5vw; } .rv > div:first-child { flex: 1; }
+.stars { color: #FF6600; font-size: 9vh; letter-spacing: .1em; }
+.rv blockquote { margin: 2vh 0; font-size: 7.5vh; font-weight: 900; line-height: 1.15; }
+.rv .who { font-size: 4vh; color: #EC008C; font-weight: 800; }
+.rv-qr { text-align: center; font-size: 3vh; font-weight: 700; } .rv-qr img { width: 30vh; height: 30vh; background: #fff; padding: 1vh; display: block; margin-bottom: 1.5vh; }
+.iod { flex: 1; display: flex; gap: 4vw; align-items: center; min-height: 0; }
+.iod-photo { height: 64vh; aspect-ratio: 1; background: #fff; border: .6vh solid #EC008C; border-radius: 1.5vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.iod-photo img { max-width: 94%; max-height: 94%; object-fit: contain; }
+.iod-info { flex: 1; display: flex; flex-direction: column; gap: 2.5vh; }
+.iod-price { font-size: 17vh; font-weight: 900; color: #FF6600; line-height: 1; }
+.iod-meta { font-size: 4.4vh; font-weight: 800; } .iod-sku { font-size: 5vh; } .iod-sku b { color: #EC008C; }
+.iod-here { font-size: 3vh; color: #bbb; }
+.live-item h1 { font-size: 6.4vh; }
