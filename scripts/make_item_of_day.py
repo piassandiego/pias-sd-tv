@@ -11,6 +11,18 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
+SMALL = {'a', 'an', 'the', 'at', 'of', 'for', 'to', 'in', 'on', 'or', 'and', 'by', 'w/'}
+
+def title_case(name):
+    """Title Case a product name; keeps ALL-CAPS/model tokens (MVP, BB/SB, 2500) and 'w/' as-is."""
+    out = []
+    for i, w in enumerate(name.split()):
+        low = w.lower()
+        if low.startswith('w/') and i: out.append('w/' + title_case(w[2:]) if len(w) > 2 else 'w/'); continue
+        if i and low in SMALL: out.append(low)
+        elif any(ch.isdigit() for ch in w) or (w.isupper() and len(w) > 1) or any(ch.isupper() for ch in w[1:]): out.append(w)
+        else: out.append('-'.join(p[:1].upper() + p[1:] for p in w.split('-')))
+    return ' '.join(out)
 
 def from_captions(text):
     sec = text.split('ITEM OF THE DAY', 1)[1]
@@ -40,7 +52,7 @@ def main(day):
     im = Image.open(photo).convert('RGBA'); bg = Image.new('RGBA', im.size, 'white'); bg.alpha_composite(im)
     im = bg.convert('RGB'); im.thumbnail((1000, 1000)); im.save(ROOT / 'images/item-of-day.jpg', quality=88, optimize=True)
     price = it['price'] if str(it['price']).startswith('$') else '$' + str(it['price'])
-    out = {'title': it['name'], 'price': price, 'sku': it['sku'], 'details': it.get('details') or '',
+    out = {'title': title_case(it['name']), 'price': price, 'sku': it['sku'], 'details': it.get('details') or '',
            'condition': it.get('condition') or '', 'image': 'images/item-of-day.jpg', 'day': day.name}
     (ROOT / 'data').mkdir(exist_ok=True)
     (ROOT / 'data/item-of-day.json').write_text(json.dumps(out, indent=1) + '\n')
