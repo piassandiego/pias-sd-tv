@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-07T13:26:47+00:00",
+ "updated": "2026-11-07T14:16:06+00:00",
  "buoys": [
   {
-   "waveFt": 3.9,
-   "periodS": 15,
-   "dirDeg": 266.0,
+   "waveFt": 3.6,
+   "periodS": 13,
+   "dirDeg": 259.0,
    "dir": "W",
    "waterF": 76,
-   "time": "2026-11-07T12:56:00+00:00",
+   "time": "2026-11-07T13:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 3.0,
    "periodS": 12,
-   "dirDeg": 294.0,
+   "dirDeg": 291.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-07T12:56:00+00:00",
+   "time": "2026-11-07T13:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.6,
-   "periodS": 17,
-   "dirDeg": 277.0,
+   "waveFt": 4.9,
+   "periodS": 15,
+   "dirDeg": 264.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-07T12:56:00+00:00",
+   "time": "2026-11-07T13:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 5.6,
-   "periodS": 17,
-   "dirDeg": 275.0,
+   "waveFt": 5.2,
+   "periodS": 14,
+   "dirDeg": 271.0,
    "dir": "W",
    "waterF": 74,
-   "time": "2026-11-07T12:56:00+00:00",
+   "time": "2026-11-07T13:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -48,35 +48,35 @@
    "windMph": "5",
    "windDir": "NE",
    "tempF": 66,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
-   "windDir": "E",
+   "windDir": "NE",
    "tempF": 62,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "La Jolla",
-   "windMph": "10",
+   "windMph": "5",
    "windDir": "NE",
    "tempF": 63,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "NE",
    "tempF": 64,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
    "windDir": "NE",
    "tempF": 64,
-   "short": "Clear"
+   "short": "Sunny"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
