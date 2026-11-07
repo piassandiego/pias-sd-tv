@@ -127,11 +127,12 @@ window.TV_CONFIG = {
   },
   // Change the words inside quotes; add/remove whole lines for messages.
   tickerMessages: [
-    'New items may be returned within 14 days with receipt',
+    'New items may be returned in new condition within 14 days with receipt',
     'All sales of used equipment are final',
-    'We buy used sports gear every day: bring it in for cash or trade',
-    'Open Mon–Fri 10am–7pm, Sat 10am–6pm, Sun 11am–5pm',
-    '9925 Carmel Mountain Rd · (858) 695-3030 · @PIASSanDiego',
+    'We service what we sell!',
+    'We buy used sports gear every day: bring it in for cash or trade. Trade In, Trade Up!',
+    'Hours: Open Mon–Fri 10am–7pm, Sat 10am–6pm, Sun 11am–5pm',
+    'Shop in store: 9925 Carmel Mountain Rd · Call Us: (858) 695-3030 · Social: @PIASSanDiego · Shop Online: www.playitagainsportsscrippsmesa.com',
   ],
   tickerSpeed: 85, // Pixels per second; increase to scroll faster.
   tickerPosition: 'bottom', // 'bottom' or 'top'; always OUTSIDE the video.
