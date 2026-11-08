@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T21:07:17+00:00",
+ "updated": "2026-11-08T22:07:27+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 51,
-   "period": "This Afternoon",
-   "short": "Mostly Sunny",
+   "period": "Today",
+   "short": "Sunny",
    "snow3dayIn": 0.0
   },
   {
