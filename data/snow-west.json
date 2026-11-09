@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T07:54:32+00:00",
+ "updated": "2026-11-09T09:02:44+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 33,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Clear",
    "snow3dayIn": 0.0
   },
@@ -13,21 +13,21 @@
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
    "tempF": 38,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 3,
-   "snowDepthDate": "2026-11-07"
+   "snowDepthDate": "2026-11-08"
   },
   {
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
    "tempF": 35,
-   "period": "Tonight",
-   "short": "Mostly Cloudy",
+   "period": "Overnight",
+   "short": "Partly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 0,
-   "snowDepthDate": "2026-11-07"
+   "snowDepthDate": "2026-11-08"
   },
   {
    "name": "Brian Head",
@@ -36,18 +36,18 @@
    "period": "Overnight",
    "short": "Mostly Clear",
    "snow3dayIn": 0.0,
-   "snowDepthIn": 9,
-   "snowDepthDate": "2026-11-07"
+   "snowDepthIn": 8,
+   "snowDepthDate": "2026-11-08"
   },
   {
    "name": "Park City",
    "area": "Park City, UT",
    "tempF": 38,
    "period": "Overnight",
-   "short": "Mostly Cloudy",
+   "short": "Partly Cloudy",
    "snow3dayIn": 0.0,
-   "snowDepthIn": 4,
-   "snowDepthDate": "2026-11-07"
+   "snowDepthIn": 5,
+   "snowDepthDate": "2026-11-08"
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports); snow depth: USDA NRCS SNOTEL"
