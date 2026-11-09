@@ -1,18 +1,24 @@
 (() => {
   'use strict';
-  const cfg = window.TV_CONFIG || {};
-  const list = (cfg.playlist || []).filter(item => item && (item.src || (item.type === 'live' && item.widget)));
+  let cfg = window.TV_CONFIG || {};
+  const usable = c => (c.playlist || []).filter(item => item && (item.src || (item.type === 'live' && item.widget)));
+  let list = usable(cfg);
+  let ver = Date.now();
   const live = window.TV_LIVE;
   const screen = document.getElementById('screen');
   const status = document.getElementById('status');
   if (cfg.tickerPosition === 'top') document.body.classList.add('ticker-top');
   const track = document.getElementById('ticker-track');
   const copy = document.createElement('div'); copy.className = 'ticker-copy';
-  (cfg.tickerMessages || []).forEach(message => {
-    const text = document.createElement('span'); text.textContent = message; copy.appendChild(text);
-    const separator = document.createElement('span'); separator.className = 'separator';
-    separator.textContent = '◆'; copy.appendChild(separator);
-  });
+  function fillTicker() {
+    copy.textContent = '';
+    (cfg.tickerMessages || []).forEach(message => {
+      const text = document.createElement('span'); text.textContent = message; copy.appendChild(text);
+      const separator = document.createElement('span'); separator.className = 'separator';
+      separator.textContent = '◆'; copy.appendChild(separator);
+    });
+  }
+  fillTicker();
   track.appendChild(copy);
   let animation;
   function sizeTicker() {
@@ -27,7 +33,7 @@
       {duration: width / Math.max(1, Number(cfg.tickerSpeed) || 85) * 1000, iterations: Infinity, easing: 'linear'});
   }
   sizeTicker(); addEventListener('resize', sizeTicker);
-  let current = null, next = null, index = 0, timer, failures = 0;
+  let current = null, next = null, index = -1, timer, failures = 0, cycleHold = false;
   function prepare(i) {
     const item = list[i];
     if (item.type === 'live') {
@@ -49,7 +55,8 @@
       el.preload = 'auto'; el.controls = false;
       el.addEventListener('ended', () => { if (entry === current) advance(false); });
     } else { el.alt = ''; }
-    el.src = item.src; screen.appendChild(el); return entry;
+    el.src = item.type === 'image' ? item.src + (item.src.includes('?') ? '&' : '?') + 'v=' + ver : item.src;
+    screen.appendChild(el); return entry;
   }
   function advance(failed) {
     clearTimeout(timer);
@@ -59,13 +66,23 @@
       timer = setTimeout(() => { failures = 0; activate(); }, 10000); return;
     }
     // Tell the page a full cycle just finished (index.html reloads on this).
-    if (index === list.length - 1) { const ev = new Event('tv-cycle-end', {cancelable: true}); if (!dispatchEvent(ev)) return; }
+    if (index === list.length - 1 && !cycleHold) {
+      const ev = new Event('tv-cycle-end', {cancelable: true});
+      if (!dispatchEvent(ev)) {
+        // index.html is refreshing the settings; continue with the first slide when it's done.
+        cycleHold = true;
+        const resume = () => { if (!cycleHold) return; cycleHold = false; index = list.length - 1; next = next && next.i === 0 ? next : null; activate(); };
+        window.TV_CYCLE_CONTINUE = resume;
+        timer = setTimeout(resume, 15000);   // never wait more than 15 s
+        return;
+      }
+    }
     activate();
   }
   function activate() {
     clearTimeout(timer);
     const old = current;
-    current = next || prepare(index); index = current.i;
+    current = next || prepare((index + 1) % list.length); index = current.i;
     next = null;
     if (old && old !== current) old.el.remove();
     status.textContent = '';
@@ -94,6 +111,28 @@
     window.TV_PLAYER_STATE = {index, src: list[index].src};
   }
   if (list.length) activate(); else status.textContent = 'Add videos or photos to config.js';
+  // Soft refresh: load the latest config.js and slides WITHOUT reloading the page,
+  // so the TV browser (e.g. Silk on Fire TV) stays on this page and in fullscreen.
+  // Calls done() when finished; if anything fails, the current settings are kept.
+  window.TV_REFRESH = function (done) {
+    const finish = () => { try { if (done) done(); } catch (_) {} };
+    const old = window.TV_CONFIG;
+    const s = document.createElement('script');
+    s.src = 'config.js?v=' + Date.now();
+    s.onload = () => {
+      s.remove();
+      const fresh = window.TV_CONFIG;
+      if (fresh && fresh !== old && usable(fresh).length) {
+        cfg = fresh; list = usable(fresh); ver = Date.now();
+        if (next) { next.el.remove(); next = null; }
+        index = list.length - 1;   // so the next slide shown is the first one
+        fillTicker(); sizeTicker();
+      } else { window.TV_CONFIG = old; }
+      finish();
+    };
+    s.onerror = () => { s.remove(); window.TV_CONFIG = old; finish(); };
+    document.head.appendChild(s);
+  };
   async function fullscreen() {
     try { if (document.fullscreenElement) await document.exitFullscreen();
       else await document.documentElement.requestFullscreen(); } catch (_) { /* TV may restrict fullscreen. */ }
@@ -101,5 +140,5 @@
   document.addEventListener('click', fullscreen);
   document.addEventListener('keydown', e => { if (e.key.toLowerCase() === 'f' && !e.repeat) fullscreen(); });
   const reloadMs = Number(cfg.reloadHours) * 3600000;
-  if (reloadMs > 0) setTimeout(() => location.reload(), Math.min(reloadMs, 2147483647));
+  if (reloadMs > 0) setInterval(() => window.TV_REFRESH(), Math.min(reloadMs, 2147483647));
 })();

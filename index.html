@@ -24,11 +24,12 @@ document.head.appendChild(config);
 <aside id="ticker" aria-label="Store information"><div id="ticker-track"></div></aside>
 <div id="status" role="status"></div>
 <script>
-  // Reload the page each time the display finishes one full cycle (about 11 minutes
-  // right now; it adjusts on its own when slides or videos are added or removed).
+  // Each time the display finishes one full cycle (about 11 minutes right now), pull in
+  // the latest settings and slides WITHOUT a full page reload. A full reload makes Silk
+  // on the Fire TV time out and drop back to its main screen.
   addEventListener('tv-cycle-end', function (e) {
     e.preventDefault();
-    location.reload();
+    window.TV_REFRESH(function () { window.TV_CYCLE_CONTINUE(); });
   });
 </script>
 </body>
