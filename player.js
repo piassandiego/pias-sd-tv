@@ -58,6 +58,8 @@
       status.textContent = 'Media unavailable — retrying shortly';
       timer = setTimeout(() => { failures = 0; activate(); }, 10000); return;
     }
+    // Tell the page a full cycle just finished (index.html reloads on this).
+    if (index === list.length - 1) { const ev = new Event('tv-cycle-end', {cancelable: true}); if (!dispatchEvent(ev)) return; }
     activate();
   }
   function activate() {
