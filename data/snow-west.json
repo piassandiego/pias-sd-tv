@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T22:07:27+00:00",
+ "updated": "2026-11-09T00:03:56+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 51,
-   "period": "Today",
-   "short": "Sunny",
+   "period": "This Afternoon",
+   "short": "Mostly Sunny",
    "snow3dayIn": 0.0
   },
   {
@@ -23,7 +23,7 @@
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
    "tempF": 48,
-   "period": "Today",
+   "period": "This Afternoon",
    "short": "Partly Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 0,
@@ -44,7 +44,7 @@
    "area": "Park City, UT",
    "tempF": 51,
    "period": "This Afternoon",
-   "short": "Sunny",
+   "short": "Partly Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 4,
    "snowDepthDate": "2026-11-07"
