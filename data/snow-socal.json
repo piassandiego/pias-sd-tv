@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T19:47:03+00:00",
+ "updated": "2026-11-10T20:40:00+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -13,7 +13,7 @@
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
    "tempF": 60,
-   "period": "Today",
+   "period": "This Afternoon",
    "short": "Sunny",
    "snow3dayIn": 0.0
   },
@@ -29,7 +29,7 @@
    "name": "Mountain High",
    "area": "Wrightwood",
    "tempF": 62,
-   "period": "Today",
+   "period": "This Afternoon",
    "short": "Sunny",
    "snow3dayIn": 0.0
   }
