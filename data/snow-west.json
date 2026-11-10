@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:48:10+00:00",
+ "updated": "2026-11-10T00:51:22+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -24,7 +24,7 @@
    "area": "South Lake Tahoe, CA",
    "tempF": 47,
    "period": "This Afternoon",
-   "short": "Partly Sunny",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 0,
    "snowDepthDate": "2026-11-08"
@@ -33,7 +33,7 @@
    "name": "Brian Head",
    "area": "Brian Head, UT",
    "tempF": 46,
-   "period": "This Afternoon",
+   "period": "Today",
    "short": "Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 8,
@@ -43,7 +43,7 @@
    "name": "Park City",
    "area": "Park City, UT",
    "tempF": 52,
-   "period": "This Afternoon",
+   "period": "Today",
    "short": "Mostly Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 4,
