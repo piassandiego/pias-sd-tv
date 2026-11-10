@@ -93,15 +93,15 @@ window.TV_CONFIG = {
   // Edit the wants list each season: one quoted item per line.
   // Style: big titles use Title Case (lowercase a, an, the, at, of, for, to, in, on, or, and, by unless first).
   buying: {
-    kicker: "We're buying right now",
+    kicker: "Most Wanted",
     title: 'We Pay Cash or Trade for Your Gear',
     wants: [
-      'Skis, snowboards, boots & bindings',
-      'Ice & roller hockey skates',
-      'Hockey sticks & goalie gear',
-      'Youth cleats',
-      'Golf clubs',
-      'Fitness equipment',
+      'Skis, Snowboards, Boots & Bindings',
+      'Adult Ice & Roller Hockey Skates',
+      'Adult Hockey Protective & Hockey Sticks',
+      'Youth & Adult Cleats',
+      'Premium Pro-Line Golf Clubs',
+      'Dumbells, Barbells, Kettlebells & Olympic Plates',
     ],
     cta: 'Bring It In Today',
     hours: 'Mon–Fri 10–7 · Sat 10–6 · Sun 11–5',
