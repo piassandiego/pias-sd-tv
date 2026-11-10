@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T04:47:22+00:00",
+ "updated": "2026-11-10T08:13:50+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -21,7 +21,7 @@
    "name": "Snow Valley",
    "area": "Running Springs",
    "tempF": 42,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Partly Cloudy",
    "snow3dayIn": 0.0
   },
@@ -29,7 +29,7 @@
    "name": "Mountain High",
    "area": "Wrightwood",
    "tempF": 53,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Partly Cloudy",
    "snow3dayIn": 0.0
   }
