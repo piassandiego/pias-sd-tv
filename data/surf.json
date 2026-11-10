@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-10T20:40:08+00:00",
+ "updated": "2026-11-10T21:36:52+00:00",
  "buoys": [
   {
    "waveFt": 3.9,
-   "periodS": 13,
-   "dirDeg": 282.0,
-   "dir": "WNW",
+   "periodS": 14,
+   "dirDeg": 270.0,
+   "dir": "W",
    "waterF": 76,
-   "time": "2026-11-10T19:56:00+00:00",
+   "time": "2026-11-10T20:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.6,
-   "periodS": 13,
+   "waveFt": 3.0,
+   "periodS": 14,
    "dirDeg": 296.0,
    "dir": "WNW",
    "waterF": 76,
-   "time": "2026-11-10T19:56:00+00:00",
+   "time": "2026-11-10T20:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
    "waveFt": 5.2,
-   "periodS": 13,
-   "dirDeg": 275.0,
+   "periodS": 14,
+   "dirDeg": 278.0,
    "dir": "W",
    "waterF": 76,
-   "time": "2026-11-10T19:56:00+00:00",
+   "time": "2026-11-10T20:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 4.6,
-   "periodS": 13,
-   "dirDeg": 280.0,
-   "dir": "W",
+   "waveFt": 4.9,
+   "periodS": 14,
+   "dirDeg": 254.0,
+   "dir": "WSW",
    "waterF": 76,
-   "time": "2026-11-10T19:56:00+00:00",
+   "time": "2026-11-10T20:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -73,9 +73,9 @@
   },
   {
    "name": "Ocean Beach",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "NW",
-   "tempF": 76,
+   "tempF": 77,
    "short": "Sunny"
   }
  ],
