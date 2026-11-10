@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-10T18:42:44+00:00",
+ "updated": "2026-11-10T19:47:11+00:00",
  "buoys": [
   {
-   "waveFt": 3.9,
+   "waveFt": 4.3,
    "periodS": 14,
-   "dirDeg": 249.0,
-   "dir": "WSW",
+   "dirDeg": 264.0,
+   "dir": "W",
    "waterF": 76,
-   "time": "2026-11-10T17:56:00+00:00",
+   "time": "2026-11-10T18:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 3.0,
+   "waveFt": 2.6,
    "periodS": 13,
-   "dirDeg": 288.0,
+   "dirDeg": 285.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-10T17:56:00+00:00",
+   "time": "2026-11-10T18:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.9,
+   "waveFt": 5.2,
    "periodS": 14,
-   "dirDeg": 277.0,
+   "dirDeg": 270.0,
    "dir": "W",
-   "waterF": 75,
-   "time": "2026-11-10T17:56:00+00:00",
+   "waterF": 76,
+   "time": "2026-11-10T18:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 4.9,
    "periodS": 14,
-   "dirDeg": 275.0,
-   "dir": "W",
+   "dirDeg": 253.0,
+   "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-10T17:56:00+00:00",
+   "time": "2026-11-10T18:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,37 +45,37 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 72,
+   "windMph": "5",
+   "windDir": "W",
+   "tempF": 73,
    "short": "Sunny"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 78,
+   "windMph": "5",
+   "windDir": "W",
+   "tempF": 79,
    "short": "Sunny"
   },
   {
    "name": "La Jolla",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 78,
+   "windMph": "5",
+   "windDir": "NW",
+   "tempF": 79,
    "short": "Sunny"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 76,
+   "windMph": "5",
+   "windDir": "W",
+   "tempF": 77,
    "short": "Sunny"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 76,
+   "windMph": "5",
+   "windDir": "W",
+   "tempF": 78,
    "short": "Sunny"
   }
  ],
