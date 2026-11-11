@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:28:18+00:00",
+ "updated": "2026-11-11T18:22:30+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 49,
    "period": "Veterans Day",
    "short": "Sunny",
-   "snow3dayIn": 8.1
+   "snow3dayIn": 9.9
   },
   {
    "name": "Palisades Tahoe",
@@ -25,7 +25,7 @@
    "tempF": 52,
    "period": "Veterans Day",
    "short": "Sunny",
-   "snow3dayIn": 6.6,
+   "snow3dayIn": 7.5,
    "snowDepthIn": 0,
    "snowDepthDate": "2026-11-10"
   },
@@ -35,7 +35,7 @@
    "tempF": 47,
    "period": "Veterans Day",
    "short": "Sunny",
-   "snow3dayIn": 5.4,
+   "snow3dayIn": 5.9,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-10"
   },
