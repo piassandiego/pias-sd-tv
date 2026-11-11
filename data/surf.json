@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-11T12:56:59+00:00",
+ "updated": "2026-11-11T14:13:40+00:00",
  "buoys": [
   {
-   "waveFt": 3.9,
-   "periodS": 14,
-   "dirDeg": 257.0,
+   "waveFt": 3.6,
+   "periodS": 13,
+   "dirDeg": 253.0,
    "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-11T12:26:00+00:00",
+   "time": "2026-11-11T13:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 3.0,
+   "waveFt": 2.6,
    "periodS": 13,
-   "dirDeg": 296.0,
+   "dirDeg": 292.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-11T12:26:00+00:00",
+   "time": "2026-11-11T13:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
    "waveFt": 4.3,
-   "periodS": 15,
-   "dirDeg": 242.0,
-   "dir": "WSW",
+   "periodS": 14,
+   "dirDeg": 263.0,
+   "dir": "W",
    "waterF": 75,
-   "time": "2026-11-11T12:26:00+00:00",
+   "time": "2026-11-11T13:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 4.6,
+   "waveFt": 4.3,
    "periodS": 13,
-   "dirDeg": 259.0,
-   "dir": "W",
+   "dirDeg": 257.0,
+   "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-11T12:26:00+00:00",
+   "time": "2026-11-11T13:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -48,35 +48,35 @@
    "windMph": "5",
    "windDir": "E",
    "tempF": 66,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
    "windDir": "E",
-   "tempF": 63,
-   "short": "Mostly Clear"
+   "tempF": 62,
+   "short": "Sunny"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
    "windDir": "E",
    "tempF": 65,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "NE",
    "tempF": 65,
-   "short": "Clear"
+   "short": "Sunny"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
    "windDir": "E",
-   "tempF": 66,
-   "short": "Mostly Clear"
+   "tempF": 65,
+   "short": "Sunny"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
