@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T04:53:23+00:00",
+ "updated": "2026-11-11T05:53:42+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 33,
    "period": "Tonight",
    "short": "Mostly Clear",
-   "snow3dayIn": 3.0
+   "snow3dayIn": 3.5
   },
   {
    "name": "Palisades Tahoe",
@@ -15,7 +15,7 @@
    "tempF": 39,
    "period": "Tonight",
    "short": "Clear",
-   "snow3dayIn": 2.0,
+   "snow3dayIn": 2.5,
    "snowDepthIn": 2,
    "snowDepthDate": "2026-11-09"
   },
@@ -25,7 +25,7 @@
    "tempF": 38,
    "period": "Tonight",
    "short": "Clear",
-   "snow3dayIn": 3.4,
+   "snow3dayIn": 4.0,
    "snowDepthIn": 0,
    "snowDepthDate": "2026-11-09"
   },
@@ -35,7 +35,7 @@
    "tempF": 29,
    "period": "Tonight",
    "short": "Clear",
-   "snow3dayIn": 0.5,
+   "snow3dayIn": 0.6,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-09"
   },
