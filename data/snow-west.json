@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:00:34+00:00",
+ "updated": "2026-11-11T08:30:26+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 33,
    "period": "Tonight",
    "short": "Clear",
-   "snow3dayIn": 5.6
+   "snow3dayIn": 6.4
   },
   {
    "name": "Palisades Tahoe",
@@ -15,9 +15,9 @@
    "tempF": 39,
    "period": "Tonight",
    "short": "Clear",
-   "snow3dayIn": 5.8,
-   "snowDepthIn": 2,
-   "snowDepthDate": "2026-11-09"
+   "snow3dayIn": 6.3,
+   "snowDepthIn": 1,
+   "snowDepthDate": "2026-11-10"
   },
   {
    "name": "Heavenly",
@@ -25,9 +25,9 @@
    "tempF": 38,
    "period": "Tonight",
    "short": "Clear",
-   "snow3dayIn": 5.6,
+   "snow3dayIn": 5.9,
    "snowDepthIn": 0,
-   "snowDepthDate": "2026-11-09"
+   "snowDepthDate": "2026-11-10"
   },
   {
    "name": "Brian Head",
@@ -35,9 +35,9 @@
    "tempF": 28,
    "period": "Overnight",
    "short": "Clear",
-   "snow3dayIn": 0.5,
+   "snow3dayIn": 0.9,
    "snowDepthIn": 9,
-   "snowDepthDate": "2026-11-09"
+   "snowDepthDate": "2026-11-10"
   },
   {
    "name": "Park City",
@@ -47,7 +47,7 @@
    "short": "Mostly Clear",
    "snow3dayIn": 0.0,
    "snowDepthIn": 4,
-   "snowDepthDate": "2026-11-09"
+   "snowDepthDate": "2026-11-10"
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports); snow depth: USDA NRCS SNOTEL"
