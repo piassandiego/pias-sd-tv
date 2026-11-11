@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T14:13:32+00:00",
+ "updated": "2026-11-11T22:37:35+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
-   "tempF": 60,
+   "tempF": 59,
    "period": "Veterans Day",
    "short": "Sunny",
    "snow3dayIn": 0.0
@@ -12,7 +12,7 @@
   {
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
-   "tempF": 61,
+   "tempF": 60,
    "period": "Veterans Day",
    "short": "Sunny",
    "snow3dayIn": 0.0

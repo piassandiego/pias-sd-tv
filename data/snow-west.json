@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:31:02+00:00",
+ "updated": "2026-11-11T22:37:40+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -35,7 +35,7 @@
    "tempF": 46,
    "period": "Veterans Day",
    "short": "Sunny",
-   "snow3dayIn": 7.0,
+   "snow3dayIn": 7.5,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-10"
   },
@@ -45,7 +45,7 @@
    "tempF": 50,
    "period": "Veterans Day",
    "short": "Sunny",
-   "snow3dayIn": 1.0,
+   "snow3dayIn": 1.3,
    "snowDepthIn": 4,
    "snowDepthDate": "2026-11-10"
   }
