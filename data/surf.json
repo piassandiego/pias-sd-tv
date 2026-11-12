@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-12T05:55:43+00:00",
+ "updated": "2026-11-12T07:05:44+00:00",
  "buoys": [
   {
-   "waveFt": 4.3,
-   "periodS": 12,
-   "dirDeg": 268.0,
+   "waveFt": 4.6,
+   "periodS": 14,
+   "dirDeg": 261.0,
    "dir": "W",
    "waterF": 76,
-   "time": "2026-11-12T05:26:00+00:00",
+   "time": "2026-11-12T06:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 3.0,
-   "periodS": 10,
-   "dirDeg": 284.0,
+   "waveFt": 2.6,
+   "periodS": 13,
+   "dirDeg": 288.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-12T05:26:00+00:00",
+   "time": "2026-11-12T06:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.3,
+   "waveFt": 4.9,
    "periodS": 14,
-   "dirDeg": 259.0,
+   "dirDeg": 267.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-12T05:26:00+00:00",
+   "time": "2026-11-12T06:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 5.2,
+   "waveFt": 5.6,
    "periodS": 13,
-   "dirDeg": 281.0,
+   "dirDeg": 264.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-12T05:26:00+00:00",
+   "time": "2026-11-12T06:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,37 +45,37 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 71,
+   "windMph": "5",
+   "windDir": "SE",
+   "tempF": 68,
    "short": "Mostly Clear"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 67,
-   "short": "Mostly Clear"
+   "windMph": "5",
+   "windDir": "SE",
+   "tempF": 65,
+   "short": "Clear"
   },
   {
    "name": "La Jolla",
    "windMph": "0",
    "windDir": "",
-   "tempF": 68,
-   "short": "Mostly Clear"
+   "tempF": 67,
+   "short": "Clear"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 70,
+   "windMph": "5",
+   "windDir": "E",
+   "tempF": 68,
    "short": "Clear"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "0",
-   "windDir": "",
-   "tempF": 70,
+   "windMph": "5",
+   "windDir": "E",
+   "tempF": 68,
    "short": "Mostly Clear"
   }
  ],
