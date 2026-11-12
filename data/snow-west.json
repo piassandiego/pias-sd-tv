@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:44:14+00:00",
+ "updated": "2026-11-12T22:40:56+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -34,7 +34,7 @@
    "area": "Brian Head, UT",
    "tempF": 43,
    "period": "This Afternoon",
-   "short": "Mostly Sunny",
+   "short": "Partly Sunny",
    "snow3dayIn": 8.3,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-11"
