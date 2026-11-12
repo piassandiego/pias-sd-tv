@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T02:45:40+00:00",
+ "updated": "2026-11-12T08:35:29+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
    "tempF": 35,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Clear",
    "snow3dayIn": 0.0
   },
@@ -29,7 +29,7 @@
    "name": "Mountain High",
    "area": "Wrightwood",
    "tempF": 46,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Clear",
    "snow3dayIn": 0.0
   }
