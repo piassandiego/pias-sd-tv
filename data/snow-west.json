@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T09:53:56+00:00",
+ "updated": "2026-11-12T10:56:28+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 33,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Clear",
    "snow3dayIn": 7.5
   },
@@ -23,7 +23,7 @@
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
    "tempF": 37,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Clear",
    "snow3dayIn": 6.3,
    "snowDepthIn": 0,
