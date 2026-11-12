@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-12T01:48:41+00:00",
+ "updated": "2026-11-12T02:45:44+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
-   "tempF": 49,
-   "period": "Veterans Day",
-   "short": "Sunny",
+   "tempF": 30,
+   "period": "Tonight",
+   "short": "Clear",
    "snow3dayIn": 9.9
   },
   {
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
-   "tempF": 59,
-   "period": "Veterans Day",
-   "short": "Sunny",
+   "tempF": 38,
+   "period": "Tonight",
+   "short": "Clear",
    "snow3dayIn": 7.1,
    "snowDepthIn": 1,
    "snowDepthDate": "2026-11-10"
@@ -22,9 +22,9 @@
   {
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
-   "tempF": 52,
-   "period": "Veterans Day",
-   "short": "Sunny",
+   "tempF": 35,
+   "period": "Tonight",
+   "short": "Clear",
    "snow3dayIn": 7.5,
    "snowDepthIn": 0,
    "snowDepthDate": "2026-11-10"
