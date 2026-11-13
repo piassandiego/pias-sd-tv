@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-12T23:38:16+00:00",
+ "updated": "2026-11-13T00:55:31+00:00",
  "buoys": [
   {
-   "waveFt": 4.3,
+   "waveFt": 3.9,
    "periodS": 13,
-   "dirDeg": 266.0,
+   "dirDeg": 270.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-12T22:56:00+00:00",
+   "time": "2026-11-13T00:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.6,
+   "waveFt": 2.3,
    "periodS": 13,
-   "dirDeg": 295.0,
+   "dirDeg": 294.0,
    "dir": "WNW",
-   "waterF": 75,
-   "time": "2026-11-12T22:56:00+00:00",
+   "waterF": 76,
+   "time": "2026-11-13T00:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 3.6,
+   "waveFt": 3.9,
    "periodS": 13,
-   "dirDeg": 257.0,
-   "dir": "WSW",
-   "waterF": 76,
-   "time": "2026-11-12T22:56:00+00:00",
+   "dirDeg": 274.0,
+   "dir": "W",
+   "waterF": 75,
+   "time": "2026-11-13T00:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 4.6,
-   "periodS": 13,
-   "dirDeg": 261.0,
-   "dir": "W",
+   "waveFt": 4.3,
+   "periodS": 14,
+   "dirDeg": 235.0,
+   "dir": "SW",
    "waterF": 76,
-   "time": "2026-11-12T22:56:00+00:00",
+   "time": "2026-11-13T00:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -46,36 +46,36 @@
   {
    "name": "Del Mar",
    "windMph": "10",
-   "windDir": "SW",
+   "windDir": "W",
    "tempF": 72,
    "short": "Mostly Sunny"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "10",
-   "windDir": "SW",
-   "tempF": 74,
-   "short": "Mostly Sunny"
-  },
-  {
-   "name": "La Jolla",
-   "windMph": "10",
-   "windDir": "SW",
+   "windMph": "5",
+   "windDir": "W",
    "tempF": 73,
    "short": "Mostly Sunny"
   },
   {
+   "name": "La Jolla",
+   "windMph": "5",
+   "windDir": "W",
+   "tempF": 72,
+   "short": "Mostly Sunny"
+  },
+  {
    "name": "Pacific Beach",
-   "windMph": "10",
-   "windDir": "SW",
-   "tempF": 74,
+   "windMph": "5",
+   "windDir": "W",
+   "tempF": 73,
    "short": "Mostly Sunny"
   },
   {
    "name": "Ocean Beach",
    "windMph": "10",
-   "windDir": "SW",
-   "tempF": 73,
+   "windDir": "W",
+   "tempF": 72,
    "short": "Mostly Sunny"
   }
  ],
