@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-13T02:49:13+00:00",
+ "updated": "2026-11-13T03:48:55+00:00",
  "buoys": [
   {
-   "waveFt": 4.6,
-   "periodS": 12,
-   "dirDeg": 274.0,
-   "dir": "W",
+   "waveFt": 3.9,
+   "periodS": 14,
+   "dirDeg": 243.0,
+   "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-13T02:26:00+00:00",
+   "time": "2026-11-13T03:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.3,
+   "waveFt": 2.6,
    "periodS": 12,
-   "dirDeg": 295.0,
+   "dirDeg": 288.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-13T01:56:00+00:00",
+   "time": "2026-11-13T02:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.6,
+   "waveFt": 4.3,
    "periodS": 13,
-   "dirDeg": 259.0,
+   "dirDeg": 281.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T02:26:00+00:00",
+   "time": "2026-11-13T03:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 4.6,
    "periodS": 13,
-   "dirDeg": 274.0,
-   "dir": "W",
-   "waterF": 76,
-   "time": "2026-11-13T01:56:00+00:00",
+   "dirDeg": 251.0,
+   "dir": "WSW",
+   "waterF": 75,
+   "time": "2026-11-13T03:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -46,35 +46,35 @@
   {
    "name": "Del Mar",
    "windMph": "5",
-   "windDir": "SW",
+   "windDir": "S",
    "tempF": 71,
    "short": "Partly Cloudy"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
-   "windDir": "SW",
-   "tempF": 68,
+   "windDir": "S",
+   "tempF": 67,
    "short": "Partly Cloudy"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
-   "windDir": "SW",
+   "windDir": "S",
    "tempF": 68,
-   "short": "Partly Cloudy"
+   "short": "Mostly Clear"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "5",
-   "windDir": "SW",
+   "windMph": "0",
+   "windDir": "",
    "tempF": 70,
    "short": "Partly Cloudy"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "5",
-   "windDir": "SW",
+   "windMph": "0",
+   "windDir": "",
    "tempF": 70,
    "short": "Partly Cloudy"
   }
