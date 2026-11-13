@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-13T14:10:50+00:00",
+ "updated": "2026-11-13T15:15:51+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
    "tempF": 44,
    "period": "Today",
-   "short": "Chance Rain And Snow Showers then Rain And Snow Showers Likely",
+   "short": "Rain And Snow Showers Likely",
    "snow3dayIn": 0.1
   },
   {

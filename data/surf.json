@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-13T14:10:58+00:00",
+ "updated": "2026-11-13T15:15:57+00:00",
  "buoys": [
   {
-   "waveFt": 6.2,
-   "periodS": 14,
-   "dirDeg": 261.0,
+   "waveFt": 5.6,
+   "periodS": 15,
+   "dirDeg": 277.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T13:26:00+00:00",
+   "time": "2026-11-13T14:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 5.2,
-   "periodS": 6,
-   "dirDeg": 260.0,
-   "dir": "W",
+   "waveFt": 4.6,
+   "periodS": 15,
+   "dirDeg": 292.0,
+   "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-13T13:26:00+00:00",
+   "time": "2026-11-13T14:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
    "waveFt": 6.2,
-   "periodS": 14,
-   "dirDeg": 268.0,
+   "periodS": 17,
+   "dirDeg": 277.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T13:26:00+00:00",
+   "time": "2026-11-13T14:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 6.6,
-   "periodS": 14,
-   "dirDeg": 281.0,
+   "periodS": 15,
+   "dirDeg": 277.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T13:26:00+00:00",
+   "time": "2026-11-13T14:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,38 +45,38 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "15",
+   "windMph": "10",
    "windDir": "S",
-   "tempF": 64,
-   "short": "Showers And Thunderstorms"
+   "tempF": 63,
+   "short": "Rain Showers"
   },
   {
    "name": "Torrey Pines",
    "windMph": "10",
    "windDir": "SE",
    "tempF": 60,
-   "short": "Showers And Thunderstorms"
+   "short": "Rain Showers"
   },
   {
    "name": "La Jolla",
    "windMph": "10",
-   "windDir": "SE",
+   "windDir": "S",
    "tempF": 61,
-   "short": "Showers And Thunderstorms"
+   "short": "Rain Showers"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "5",
-   "windDir": "SE",
+   "windMph": "10",
+   "windDir": "S",
    "tempF": 62,
-   "short": "Showers And Thunderstorms"
+   "short": "Rain Showers"
   },
   {
    "name": "Ocean Beach",
    "windMph": "10",
-   "windDir": "SE",
-   "tempF": 61,
-   "short": "Showers And Thunderstorms"
+   "windDir": "S",
+   "tempF": 62,
+   "short": "Rain Showers"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
