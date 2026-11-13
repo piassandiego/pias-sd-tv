@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-13T11:50:54+00:00",
+ "updated": "2026-11-13T12:56:25+00:00",
  "buoys": [
   {
-   "waveFt": 3.9,
-   "periodS": 13,
-   "dirDeg": 254.0,
-   "dir": "WSW",
+   "waveFt": 5.9,
+   "periodS": 14,
+   "dirDeg": 268.0,
+   "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T10:56:00+00:00",
+   "time": "2026-11-13T12:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.6,
-   "periodS": 15,
-   "dirDeg": 299.0,
+   "waveFt": 4.6,
+   "periodS": 13,
+   "dirDeg": 294.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-13T10:56:00+00:00",
+   "time": "2026-11-13T12:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 5.2,
-   "periodS": 13,
-   "dirDeg": 278.0,
+   "waveFt": 7.2,
+   "periodS": 14,
+   "dirDeg": 263.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T10:56:00+00:00",
+   "time": "2026-11-13T12:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 5.6,
+   "waveFt": 7.5,
    "periodS": 13,
-   "dirDeg": 280.0,
+   "dirDeg": 277.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T10:56:00+00:00",
+   "time": "2026-11-13T11:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -48,35 +48,35 @@
    "windMph": "10",
    "windDir": "S",
    "tempF": 65,
-   "short": "Chance Showers And Thunderstorms"
+   "short": "Showers And Thunderstorms"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "SE",
-   "tempF": 62,
-   "short": "Chance Showers And Thunderstorms"
+   "tempF": 61,
+   "short": "Showers And Thunderstorms"
   },
   {
    "name": "La Jolla",
    "windMph": "10",
    "windDir": "SE",
-   "tempF": 63,
-   "short": "Chance Showers And Thunderstorms"
+   "tempF": 62,
+   "short": "Showers And Thunderstorms"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "SE",
    "tempF": 63,
-   "short": "Chance Showers And Thunderstorms"
+   "short": "Showers And Thunderstorms"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "10",
+   "windMph": "5",
    "windDir": "SE",
    "tempF": 63,
-   "short": "Chance Showers And Thunderstorms"
+   "short": "Showers And Thunderstorms"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
