@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-13T05:55:05+00:00",
+ "updated": "2026-11-13T07:02:32+00:00",
  "buoys": [
   {
-   "waveFt": 3.9,
+   "waveFt": 4.3,
    "periodS": 13,
-   "dirDeg": 266.0,
+   "dirDeg": 271.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T04:56:00+00:00",
+   "time": "2026-11-13T06:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 3.0,
-   "periodS": 11,
-   "dirDeg": 295.0,
+   "waveFt": 2.6,
+   "periodS": 12,
+   "dirDeg": 296.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-13T04:56:00+00:00",
+   "time": "2026-11-13T06:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.6,
+   "waveFt": 5.2,
    "periodS": 13,
-   "dirDeg": 277.0,
+   "dirDeg": 266.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T05:26:00+00:00",
+   "time": "2026-11-13T06:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 4.3,
-   "periodS": 14,
-   "dirDeg": 261.0,
+   "periodS": 13,
+   "dirDeg": 274.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-13T05:26:00+00:00",
+   "time": "2026-11-13T06:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -47,36 +47,36 @@
    "name": "Del Mar",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 70,
-   "short": "Partly Cloudy"
+   "tempF": 68,
+   "short": "Chance Rain Showers"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 66,
-   "short": "Partly Cloudy"
+   "tempF": 64,
+   "short": "Chance Rain Showers"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
    "windDir": "S",
    "tempF": 66,
-   "short": "Mostly Clear"
+   "short": "Chance Rain Showers"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 68,
-   "short": "Partly Cloudy"
+   "tempF": 67,
+   "short": "Chance Rain Showers"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
-   "windDir": "SW",
-   "tempF": 69,
-   "short": "Partly Cloudy"
+   "windDir": "S",
+   "tempF": 67,
+   "short": "Chance Rain Showers"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"

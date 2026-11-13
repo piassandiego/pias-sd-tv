@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T02:00:30+00:00",
+ "updated": "2026-11-13T07:02:25+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -14,7 +14,7 @@
    "area": "Big Bear Mountain Resort",
    "tempF": 32,
    "period": "Tonight",
-   "short": "Partly Cloudy",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 0.0
   },
   {
@@ -30,7 +30,7 @@
    "area": "Wrightwood",
    "tempF": 41,
    "period": "Tonight",
-   "short": "Mostly Cloudy then Slight Chance Light Rain",
+   "short": "Mostly Cloudy then Rain Showers Likely",
    "snow3dayIn": 0.0
   }
  ],
