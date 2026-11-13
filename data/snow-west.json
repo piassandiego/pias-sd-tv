@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-13T00:55:28+00:00",
+ "updated": "2026-11-13T02:00:45+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
-   "tempF": 44,
-   "period": "This Afternoon",
-   "short": "Mostly Sunny",
+   "tempF": 27,
+   "period": "Tonight",
+   "short": "Partly Cloudy",
    "snow3dayIn": 10.8
   },
   {
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
-   "tempF": 53,
-   "period": "This Afternoon",
-   "short": "Partly Sunny",
+   "tempF": 35,
+   "period": "Tonight",
+   "short": "Mostly Cloudy then Slight Chance Rain And Snow",
    "snow3dayIn": 4.9,
    "snowDepthIn": 1,
    "snowDepthDate": "2026-11-11"
@@ -22,9 +22,9 @@
   {
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
-   "tempF": 47,
-   "period": "This Afternoon",
-   "short": "Partly Sunny",
+   "tempF": 32,
+   "period": "Tonight",
+   "short": "Mostly Cloudy then Slight Chance Light Snow",
    "snow3dayIn": 5.6,
    "snowDepthIn": 0,
    "snowDepthDate": "2026-11-11"
@@ -32,9 +32,9 @@
   {
    "name": "Brian Head",
    "area": "Brian Head, UT",
-   "tempF": 43,
-   "period": "This Afternoon",
-   "short": "Partly Sunny",
+   "tempF": 28,
+   "period": "Tonight",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 8.3,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-11"
@@ -42,9 +42,9 @@
   {
    "name": "Park City",
    "area": "Park City, UT",
-   "tempF": 52,
-   "period": "This Afternoon",
-   "short": "Mostly Sunny",
+   "tempF": 36,
+   "period": "Tonight",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 0.7,
    "snowDepthIn": 4,
    "snowDepthDate": "2026-11-11"
