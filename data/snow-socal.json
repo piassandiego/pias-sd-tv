@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T14:37:23+00:00",
+ "updated": "2026-11-14T15:31:26+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -7,15 +7,15 @@
    "tempF": 45,
    "period": "Today",
    "short": "Chance Snow Showers then Mostly Sunny",
-   "snow3dayIn": 0.2
+   "snow3dayIn": 0.3
   },
   {
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
    "tempF": 47,
    "period": "Today",
-   "short": "Chance Rain And Snow Showers then Mostly Sunny",
-   "snow3dayIn": 0.1
+   "short": "Chance Rain And Snow Showers then Sunny",
+   "snow3dayIn": 0.2
   },
   {
    "name": "Snow Valley",
@@ -23,7 +23,7 @@
    "tempF": 44,
    "period": "Today",
    "short": "Chance Rain Showers then Mostly Sunny",
-   "snow3dayIn": 0.0
+   "snow3dayIn": 0.1
   },
   {
    "name": "Mountain High",
