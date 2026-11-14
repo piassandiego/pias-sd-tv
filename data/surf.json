@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-14T03:44:57+00:00",
+ "updated": "2026-11-14T04:47:05+00:00",
  "buoys": [
   {
-   "waveFt": 4.6,
+   "waveFt": 4.3,
    "periodS": 15,
-   "dirDeg": 261.0,
+   "dirDeg": 260.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-14T02:56:00+00:00",
+   "time": "2026-11-14T04:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 3.3,
+   "waveFt": 3.0,
    "periodS": 11,
-   "dirDeg": 288.0,
+   "dirDeg": 289.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-14T02:56:00+00:00",
+   "time": "2026-11-14T03:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.9,
-   "periodS": 13,
-   "dirDeg": 253.0,
+   "waveFt": 4.6,
+   "periodS": 17,
+   "dirDeg": 246.0,
    "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-14T02:56:00+00:00",
+   "time": "2026-11-14T03:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 6.9,
-   "periodS": 14,
-   "dirDeg": 270.0,
+   "waveFt": 6.6,
+   "periodS": 13,
+   "dirDeg": 263.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-14T02:56:00+00:00",
+   "time": "2026-11-14T03:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,8 +45,8 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "10",
-   "windDir": "SW",
+   "windMph": "15",
+   "windDir": "W",
    "tempF": 68,
    "short": "Chance Rain Showers"
   },
@@ -54,13 +54,13 @@
    "name": "Torrey Pines",
    "windMph": "10",
    "windDir": "SW",
-   "tempF": 64,
+   "tempF": 63,
    "short": "Chance Rain Showers"
   },
   {
    "name": "La Jolla",
-   "windMph": "10",
-   "windDir": "W",
+   "windMph": "15",
+   "windDir": "SW",
    "tempF": 64,
    "short": "Slight Chance Rain Showers"
   },
@@ -68,12 +68,12 @@
    "name": "Pacific Beach",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 67,
+   "tempF": 66,
    "short": "Slight Chance Rain Showers"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "10",
+   "windMph": "15",
    "windDir": "W",
    "tempF": 67,
    "short": "Slight Chance Rain Showers"
