@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:10:10+00:00",
+ "updated": "2026-11-14T22:08:07+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -35,7 +35,7 @@
    "tempF": 29,
    "period": "This Afternoon",
    "short": "Slight Chance Light Snow",
-   "snow3dayIn": 5.3,
+   "snow3dayIn": 6.0,
    "snowDepthIn": 14,
    "snowDepthDate": "2026-11-13"
   },
@@ -44,8 +44,8 @@
    "area": "Park City, UT",
    "tempF": 37,
    "period": "This Afternoon",
-   "short": "Light Snow Likely",
-   "snow3dayIn": 1.0,
+   "short": "Slight Chance Light Snow",
+   "snow3dayIn": 1.2,
    "snowDepthIn": 3,
    "snowDepthDate": "2026-11-13"
   }
