@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-14T10:37:24+00:00",
+ "updated": "2026-11-14T12:40:53+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
    "tempF": 31,
    "period": "Overnight",
-   "short": "Rain Showers",
+   "short": "Chance Rain Showers",
    "snow3dayIn": 0.2
   },
   {
@@ -14,7 +14,7 @@
    "area": "Big Bear Mountain Resort",
    "tempF": 31,
    "period": "Overnight",
-   "short": "Rain Showers",
+   "short": "Chance Rain Showers",
    "snow3dayIn": 0.1
   },
   {
@@ -22,7 +22,7 @@
    "area": "Running Springs",
    "tempF": 35,
    "period": "Overnight",
-   "short": "Rain Showers",
+   "short": "Chance Rain Showers",
    "snow3dayIn": 0.0
   },
   {
