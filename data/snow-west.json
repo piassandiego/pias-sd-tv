@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T07:55:51+00:00",
+ "updated": "2026-11-14T08:45:57+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -15,9 +15,9 @@
    "tempF": 27,
    "period": "Tonight",
    "short": "Snow Showers Likely",
-   "snow3dayIn": 5.9,
-   "snowDepthIn": 0,
-   "snowDepthDate": "2026-11-12"
+   "snow3dayIn": 5.6,
+   "snowDepthIn": 11,
+   "snowDepthDate": "2026-11-13"
   },
   {
    "name": "Heavenly",
@@ -26,8 +26,8 @@
    "period": "Tonight",
    "short": "Chance Light Snow",
    "snow3dayIn": 2.0,
-   "snowDepthIn": 0,
-   "snowDepthDate": "2026-11-12"
+   "snowDepthIn": 7,
+   "snowDepthDate": "2026-11-13"
   },
   {
    "name": "Brian Head",
@@ -35,9 +35,9 @@
    "tempF": 25,
    "period": "Overnight",
    "short": "Snow Showers",
-   "snow3dayIn": 5.5,
-   "snowDepthIn": 9,
-   "snowDepthDate": "2026-11-12"
+   "snow3dayIn": 4.9,
+   "snowDepthIn": 14,
+   "snowDepthDate": "2026-11-13"
   },
   {
    "name": "Park City",
@@ -46,8 +46,8 @@
    "period": "Overnight",
    "short": "Light Snow",
    "snow3dayIn": 0.4,
-   "snowDepthIn": 4,
-   "snowDepthDate": "2026-11-12"
+   "snowDepthIn": 3,
+   "snowDepthDate": "2026-11-13"
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports); snow depth: USDA NRCS SNOTEL"
