@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:37:29+00:00",
+ "updated": "2026-11-14T11:31:55+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -15,7 +15,7 @@
    "tempF": 27,
    "period": "Overnight",
    "short": "Widespread Frost",
-   "snow3dayIn": 4.9,
+   "snow3dayIn": 4.6,
    "snowDepthIn": 11,
    "snowDepthDate": "2026-11-13"
   },
@@ -25,7 +25,7 @@
    "tempF": 20,
    "period": "Tonight",
    "short": "Chance Light Snow",
-   "snow3dayIn": 1.9,
+   "snow3dayIn": 1.8,
    "snowDepthIn": 7,
    "snowDepthDate": "2026-11-13"
   },
@@ -35,7 +35,7 @@
    "tempF": 25,
    "period": "Overnight",
    "short": "Snow Showers",
-   "snow3dayIn": 3.8,
+   "snow3dayIn": 3.2,
    "snowDepthIn": 14,
    "snowDepthDate": "2026-11-13"
   },
