@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-14T05:44:31+00:00",
+ "updated": "2026-11-14T06:51:06+00:00",
  "buoys": [
   {
-   "waveFt": 4.9,
+   "waveFt": 4.6,
    "periodS": 15,
    "dirDeg": 256.0,
    "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-14T04:56:00+00:00",
+   "time": "2026-11-14T05:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 3.0,
-   "periodS": 12,
-   "dirDeg": 289.0,
+   "periodS": 15,
+   "dirDeg": 291.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-14T04:56:00+00:00",
+   "time": "2026-11-14T05:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
    "waveFt": 5.2,
    "periodS": 15,
-   "dirDeg": 239.0,
+   "dirDeg": 237.0,
    "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-14T04:56:00+00:00",
+   "time": "2026-11-14T05:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 6.6,
-   "periodS": 13,
-   "dirDeg": 268.0,
+   "waveFt": 6.9,
+   "periodS": 14,
+   "dirDeg": 261.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-14T04:56:00+00:00",
+   "time": "2026-11-14T05:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -48,35 +48,35 @@
    "windMph": "15",
    "windDir": "SW",
    "tempF": 68,
-   "short": "Chance Rain Showers"
+   "short": "Rain Showers Likely"
   },
   {
    "name": "Torrey Pines",
    "windMph": "10",
    "windDir": "SW",
    "tempF": 63,
-   "short": "Chance Rain Showers"
+   "short": "Rain Showers Likely"
   },
   {
    "name": "La Jolla",
-   "windMph": "15",
+   "windMph": "10",
    "windDir": "SW",
    "tempF": 64,
-   "short": "Slight Chance Rain Showers"
+   "short": "Rain Showers Likely"
   },
   {
    "name": "Pacific Beach",
    "windMph": "15",
    "windDir": "SW",
    "tempF": 66,
-   "short": "Slight Chance Rain Showers"
+   "short": "Rain Showers Likely"
   },
   {
    "name": "Ocean Beach",
    "windMph": "15",
    "windDir": "SW",
-   "tempF": 67,
-   "short": "Slight Chance Rain Showers"
+   "tempF": 66,
+   "short": "Rain Showers Likely"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
