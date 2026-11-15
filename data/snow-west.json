@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:39:10+00:00",
+ "updated": "2026-11-15T11:35:39+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -14,7 +14,7 @@
    "area": "Olympic Valley, CA",
    "tempF": 27,
    "period": "Overnight",
-   "short": "Partly Cloudy",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 4.0,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-14"
@@ -43,9 +43,9 @@
    "name": "Park City",
    "area": "Park City, UT",
    "tempF": 25,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Partly Cloudy",
-   "snow3dayIn": 2.6,
+   "snow3dayIn": 2.7,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-14"
   }
