@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-15T13:48:45+00:00",
+ "updated": "2026-11-15T14:38:59+00:00",
  "buoys": [
   {
-   "waveFt": 10.2,
-   "periodS": 18,
-   "dirDeg": 275.0,
-   "dir": "W",
+   "waveFt": 9.5,
+   "periodS": 17,
+   "dirDeg": 285.0,
+   "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-15T12:56:00+00:00",
+   "time": "2026-11-15T13:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 6.2,
+   "waveFt": 5.2,
    "periodS": 18,
-   "dirDeg": 304.0,
+   "dirDeg": 305.0,
    "dir": "NW",
    "waterF": 75,
-   "time": "2026-11-15T12:56:00+00:00",
+   "time": "2026-11-15T13:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 7.5,
-   "periodS": 17,
-   "dirDeg": 268.0,
+   "waveFt": 7.9,
+   "periodS": 15,
+   "dirDeg": 270.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-15T12:56:00+00:00",
+   "time": "2026-11-15T13:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
    "waveFt": 9.2,
-   "periodS": 18,
-   "dirDeg": 282.0,
-   "dir": "WNW",
+   "periodS": 13,
+   "dirDeg": 278.0,
+   "dir": "W",
    "waterF": 75,
-   "time": "2026-11-15T12:56:00+00:00",
+   "time": "2026-11-15T13:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -47,36 +47,36 @@
    "name": "Del Mar",
    "windMph": "10",
    "windDir": "E",
-   "tempF": 61,
-   "short": "Mostly Cloudy"
+   "tempF": 62,
+   "short": "Partly Sunny"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
    "windDir": "E",
    "tempF": 56,
-   "short": "Mostly Cloudy"
+   "short": "Partly Sunny"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
-   "windDir": "SE",
+   "windDir": "E",
    "tempF": 59,
-   "short": "Mostly Cloudy"
+   "short": "Partly Sunny"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "E",
    "tempF": 60,
-   "short": "Mostly Cloudy"
+   "short": "Partly Sunny"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
    "windDir": "E",
-   "tempF": 59,
-   "short": "Mostly Cloudy"
+   "tempF": 60,
+   "short": "Partly Sunny"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
