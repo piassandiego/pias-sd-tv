@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T02:45:59+00:00",
+ "updated": "2026-11-15T06:54:41+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -28,10 +28,10 @@
   {
    "name": "Mountain High",
    "area": "Wrightwood",
-   "tempF": 37,
+   "tempF": 34,
    "period": "Tonight",
    "short": "Mostly Clear",
-   "snow3dayIn": 0.1
+   "snow3dayIn": 0.0
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports)"
