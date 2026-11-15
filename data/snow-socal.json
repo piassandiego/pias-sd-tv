@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-15T06:54:41+00:00",
+ "updated": "2026-11-15T08:53:03+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
    "tempF": 28,
-   "period": "Tonight",
-   "short": "Mostly Clear",
-   "snow3dayIn": 0.2
+   "period": "Overnight",
+   "short": "Clear",
+   "snow3dayIn": 0.7
   },
   {
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
    "tempF": 28,
-   "period": "Tonight",
-   "short": "Mostly Clear",
-   "snow3dayIn": 0.1
+   "period": "Overnight",
+   "short": "Clear",
+   "snow3dayIn": 0.4
   },
   {
    "name": "Snow Valley",
    "area": "Running Springs",
    "tempF": 32,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Clear",
-   "snow3dayIn": 0.0
+   "snow3dayIn": 0.2
   },
   {
    "name": "Mountain High",
    "area": "Wrightwood",
    "tempF": 34,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Clear",
    "snow3dayIn": 0.0
   }
