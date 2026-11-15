@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:53:03+00:00",
+ "updated": "2026-11-15T09:41:42+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -22,7 +22,7 @@
    "area": "Running Springs",
    "tempF": 32,
    "period": "Overnight",
-   "short": "Mostly Clear",
+   "short": "Clear",
    "snow3dayIn": 0.2
   },
   {
