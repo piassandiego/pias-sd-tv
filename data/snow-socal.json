@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:30:11+00:00",
+ "updated": "2026-11-16T10:24:24+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -7,7 +7,7 @@
    "tempF": 30,
    "period": "Overnight",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 0.2
+   "snow3dayIn": 0.8
   },
   {
    "name": "Bear Mountain",
@@ -15,7 +15,7 @@
    "tempF": 30,
    "period": "Overnight",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 0.1
+   "snow3dayIn": 0.5
   },
   {
    "name": "Snow Valley",
@@ -23,7 +23,7 @@
    "tempF": 35,
    "period": "Overnight",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 0.0
+   "snow3dayIn": 0.4
   },
   {
    "name": "Mountain High",
