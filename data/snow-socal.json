@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:37:53+00:00",
+ "updated": "2026-11-16T18:51:38+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -7,7 +7,7 @@
    "tempF": 48,
    "period": "Today",
    "short": "Partly Sunny then Rain Showers",
-   "snow3dayIn": 1.0
+   "snow3dayIn": 1.1
   },
   {
    "name": "Bear Mountain",
@@ -30,7 +30,7 @@
    "area": "Wrightwood",
    "tempF": 47,
    "period": "Today",
-   "short": "Partly Sunny then Light Rain",
+   "short": "Light Rain",
    "snow3dayIn": 0.0
   }
  ],
