@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:43:00+00:00",
+ "updated": "2026-11-16T23:39:12+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 31,
    "period": "This Afternoon",
    "short": "Snow",
-   "snow3dayIn": 32.2
+   "snow3dayIn": 32.8
   },
   {
    "name": "Palisades Tahoe",
@@ -15,7 +15,7 @@
    "tempF": 35,
    "period": "This Afternoon",
    "short": "Light Snow Likely",
-   "snow3dayIn": 26.4
+   "snow3dayIn": 27.0
   },
   {
    "name": "Heavenly",
@@ -23,7 +23,7 @@
    "tempF": 33,
    "period": "This Afternoon",
    "short": "Light Snow",
-   "snow3dayIn": 18.2
+   "snow3dayIn": 18.5
   },
   {
    "name": "Brian Head",
@@ -31,7 +31,7 @@
    "tempF": 37,
    "period": "This Afternoon",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 10.7
+   "snow3dayIn": 11.1
   },
   {
    "name": "Park City",
@@ -39,7 +39,7 @@
    "tempF": 45,
    "period": "This Afternoon",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 9.0
+   "snow3dayIn": 9.2
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports)"
