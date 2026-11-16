@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-16T18:51:44+00:00",
+ "updated": "2026-11-16T20:46:23+00:00",
  "buoys": [
   {
-   "waveFt": 6.9,
-   "periodS": 14,
-   "dirDeg": 261.0,
+   "waveFt": 7.5,
+   "periodS": 17,
+   "dirDeg": 281.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-16T18:26:00+00:00",
+   "time": "2026-11-16T19:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 4.3,
+   "waveFt": 3.6,
    "periodS": 14,
-   "dirDeg": 298.0,
+   "dirDeg": 294.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-16T18:26:00+00:00",
+   "time": "2026-11-16T19:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 5.2,
-   "periodS": 15,
-   "dirDeg": 259.0,
+   "waveFt": 6.2,
+   "periodS": 18,
+   "dirDeg": 275.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-16T18:26:00+00:00",
+   "time": "2026-11-16T19:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 8.9,
-   "periodS": 17,
-   "dirDeg": 280.0,
-   "dir": "W",
+   "waveFt": 9.8,
+   "periodS": 18,
+   "dirDeg": 282.0,
+   "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-16T18:26:00+00:00",
+   "time": "2026-11-16T19:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,36 +45,36 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "5",
-   "windDir": "S",
-   "tempF": 67,
+   "windMph": "10",
+   "windDir": "SW",
+   "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "5",
-   "windDir": "S",
-   "tempF": 68,
+   "windMph": "10",
+   "windDir": "SW",
+   "tempF": 69,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
-   "windDir": "S",
-   "tempF": 67,
+   "windDir": "SW",
+   "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
-   "windDir": "S",
-   "tempF": 68,
+   "windDir": "SW",
+   "tempF": 69,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
-   "windDir": "S",
+   "windDir": "SW",
    "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   }
