@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:40:15+00:00",
+ "updated": "2026-11-16T01:08:28+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 35,
    "period": "This Afternoon",
    "short": "Sunny",
-   "snow3dayIn": 5.8
+   "snow3dayIn": 7.3
   },
   {
    "name": "Palisades Tahoe",
@@ -15,7 +15,7 @@
    "tempF": 39,
    "period": "This Afternoon",
    "short": "Areas Of Frost",
-   "snow3dayIn": 11.3,
+   "snow3dayIn": 12.6,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-14"
   },
@@ -25,16 +25,16 @@
    "tempF": 38,
    "period": "This Afternoon",
    "short": "Mostly Sunny",
-   "snow3dayIn": 5.5,
+   "snow3dayIn": 6.2,
    "snowDepthIn": 6,
    "snowDepthDate": "2026-11-14"
   },
   {
    "name": "Brian Head",
    "area": "Brian Head, UT",
-   "tempF": 36,
-   "period": "This Afternoon",
-   "short": "Partly Sunny",
+   "tempF": 24,
+   "period": "Tonight",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 8.8,
    "snowDepthIn": 20,
    "snowDepthDate": "2026-11-14"
@@ -42,9 +42,9 @@
   {
    "name": "Park City",
    "area": "Park City, UT",
-   "tempF": 41,
-   "period": "This Afternoon",
-   "short": "Mostly Sunny",
+   "tempF": 32,
+   "period": "Tonight",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 4.1,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-14"
