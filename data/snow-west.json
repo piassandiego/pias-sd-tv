@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-16T01:08:28+00:00",
+ "updated": "2026-11-16T02:35:23+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
-   "tempF": 35,
-   "period": "This Afternoon",
-   "short": "Sunny",
-   "snow3dayIn": 7.3
+   "tempF": 26,
+   "period": "Tonight",
+   "short": "Partly Cloudy",
+   "snow3dayIn": 8.8
   },
   {
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
-   "tempF": 39,
-   "period": "This Afternoon",
-   "short": "Areas Of Frost",
-   "snow3dayIn": 12.6,
+   "tempF": 29,
+   "period": "Tonight",
+   "short": "Snow",
+   "snow3dayIn": 13.8,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-14"
   },
   {
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
-   "tempF": 38,
-   "period": "This Afternoon",
-   "short": "Mostly Sunny",
-   "snow3dayIn": 6.2,
+   "tempF": 27,
+   "period": "Tonight",
+   "short": "Mostly Cloudy then Light Snow Likely",
+   "snow3dayIn": 6.7,
    "snowDepthIn": 6,
    "snowDepthDate": "2026-11-14"
   },
