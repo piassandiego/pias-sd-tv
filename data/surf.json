@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-16T21:44:00+00:00",
+ "updated": "2026-11-16T22:43:03+00:00",
  "buoys": [
   {
-   "waveFt": 8.2,
-   "periodS": 14,
-   "dirDeg": 277.0,
+   "waveFt": 9.2,
+   "periodS": 15,
+   "dirDeg": 271.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-16T20:56:00+00:00",
+   "time": "2026-11-16T21:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 4.6,
-   "periodS": 17,
-   "dirDeg": 294.0,
+   "periodS": 15,
+   "dirDeg": 291.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-16T20:56:00+00:00",
+   "time": "2026-11-16T21:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 7.5,
-   "periodS": 18,
-   "dirDeg": 277.0,
-   "dir": "W",
+   "waveFt": 7.2,
+   "periodS": 15,
+   "dirDeg": 244.0,
+   "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-16T20:56:00+00:00",
+   "time": "2026-11-16T21:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 9.2,
-   "periodS": 15,
-   "dirDeg": 273.0,
-   "dir": "W",
+   "waveFt": 9.8,
+   "periodS": 17,
+   "dirDeg": 282.0,
+   "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-16T20:56:00+00:00",
+   "time": "2026-11-16T21:56:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -46,36 +46,36 @@
   {
    "name": "Del Mar",
    "windMph": "10",
-   "windDir": "SW",
-   "tempF": 69,
+   "windDir": "W",
+   "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "Torrey Pines",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 69,
+   "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "La Jolla",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "W",
-   "tempF": 69,
+   "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "Pacific Beach",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 70,
+   "tempF": 69,
    "short": "Chance Showers And Thunderstorms"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "W",
-   "tempF": 69,
+   "tempF": 68,
    "short": "Chance Showers And Thunderstorms"
   }
  ],
