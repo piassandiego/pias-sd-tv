@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T17:36:05+00:00",
+ "updated": "2026-11-17T18:53:50+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,15 +7,15 @@
    "tempF": 19,
    "period": "Today",
    "short": "Sunny",
-   "snow3dayIn": 39.0
+   "snow3dayIn": 43.8
   },
   {
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
    "tempF": 28,
    "period": "Today",
-   "short": "Widespread Frost then Slight Chance Light Snow",
-   "snow3dayIn": 31.6,
+   "short": "Widespread Frost",
+   "snow3dayIn": 37.1,
    "snowDepthIn": 22,
    "snowDepthDate": "2026-11-16"
   },
@@ -34,8 +34,8 @@
    "area": "Brian Head, UT",
    "tempF": 32,
    "period": "Today",
-   "short": "Snow Showers then Light Snow",
-   "snow3dayIn": 10.2,
+   "short": "Light Snow",
+   "snow3dayIn": 8.5,
    "snowDepthIn": 20,
    "snowDepthDate": "2026-11-16"
   },
@@ -44,8 +44,8 @@
    "area": "Park City, UT",
    "tempF": 39,
    "period": "Today",
-   "short": "Rain And Snow",
-   "snow3dayIn": 11.9,
+   "short": "Snow",
+   "snow3dayIn": 13.4,
    "snowDepthIn": 8,
    "snowDepthDate": "2026-11-16"
   }
