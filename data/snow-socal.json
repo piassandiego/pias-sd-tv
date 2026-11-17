@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:28:10+00:00",
+ "updated": "2026-11-17T05:30:35+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -7,7 +7,7 @@
    "tempF": 26,
    "period": "Tonight",
    "short": "Rain And Snow Showers Likely",
-   "snow3dayIn": 0.9
+   "snow3dayIn": 1.0
   },
   {
    "name": "Bear Mountain",
@@ -15,7 +15,7 @@
    "tempF": 25,
    "period": "Tonight",
    "short": "Rain Showers Likely then Snow Showers Likely",
-   "snow3dayIn": 0.7
+   "snow3dayIn": 0.8
   },
   {
    "name": "Snow Valley",
