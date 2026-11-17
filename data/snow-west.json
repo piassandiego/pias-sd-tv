@@ -1,45 +1,45 @@
 {
- "updated": "2026-11-17T05:31:09+00:00",
+ "updated": "2026-11-17T07:06:48+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 14,
    "period": "Tonight",
-   "short": "Light Snow",
-   "snow3dayIn": 35.5
+   "short": "Chance Light Snow",
+   "snow3dayIn": 38.5
   },
   {
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
    "tempF": 20,
    "period": "Tonight",
-   "short": "Chance Light Snow then Widespread Frost",
-   "snow3dayIn": 29.7
+   "short": "Widespread Frost",
+   "snow3dayIn": 30.6
   },
   {
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
-   "tempF": 19,
+   "tempF": 17,
    "period": "Tonight",
-   "short": "Slight Chance Light Snow then Partly Cloudy",
-   "snow3dayIn": 19.7
+   "short": "Partly Cloudy",
+   "snow3dayIn": 19.9
   },
   {
    "name": "Brian Head",
    "area": "Brian Head, UT",
    "tempF": 27,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Light Snow",
-   "snow3dayIn": 13.1
+   "snow3dayIn": 12.8
   },
   {
    "name": "Park City",
    "area": "Park City, UT",
    "tempF": 35,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Partly Cloudy",
-   "snow3dayIn": 9.1
+   "snow3dayIn": 8.2
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports)"
