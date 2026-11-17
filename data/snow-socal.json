@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:07:05+00:00",
+ "updated": "2026-11-17T03:19:07+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -7,7 +7,7 @@
    "tempF": 26,
    "period": "Tonight",
    "short": "Rain And Snow Showers Likely",
-   "snow3dayIn": 1.6
+   "snow3dayIn": 1.7
   },
   {
    "name": "Bear Mountain",
@@ -15,7 +15,7 @@
    "tempF": 25,
    "period": "Tonight",
    "short": "Rain Showers Likely then Snow Showers Likely",
-   "snow3dayIn": 1.3
+   "snow3dayIn": 1.4
   },
   {
    "name": "Snow Valley",
@@ -23,7 +23,7 @@
    "tempF": 30,
    "period": "Tonight",
    "short": "Rain Showers Likely then Rain And Snow Showers Likely",
-   "snow3dayIn": 0.0
+   "snow3dayIn": 0.1
   },
   {
    "name": "Mountain High",
@@ -31,7 +31,7 @@
    "tempF": 31,
    "period": "Tonight",
    "short": "Light Rain Likely then Chance Light Snow",
-   "snow3dayIn": 0.0
+   "snow3dayIn": 0.1
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports)"
