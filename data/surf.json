@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-17T00:55:15+00:00",
+ "updated": "2026-11-17T02:07:45+00:00",
  "buoys": [
   {
-   "waveFt": 7.5,
+   "waveFt": 6.9,
    "periodS": 15,
-   "dirDeg": 271.0,
+   "dirDeg": 280.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-17T00:26:00+00:00",
+   "time": "2026-11-17T01:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 4.3,
-   "periodS": 17,
-   "dirDeg": 302.0,
+   "periodS": 15,
+   "dirDeg": 301.0,
    "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-17T00:26:00+00:00",
+   "time": "2026-11-17T01:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
    "waveFt": 7.9,
    "periodS": 15,
-   "dirDeg": 250.0,
-   "dir": "WSW",
+   "dirDeg": 264.0,
+   "dir": "W",
    "waterF": 75,
-   "time": "2026-11-17T00:26:00+00:00",
+   "time": "2026-11-17T01:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 7.5,
-   "periodS": 14,
-   "dirDeg": 278.0,
-   "dir": "W",
+   "waveFt": 8.5,
+   "periodS": 18,
+   "dirDeg": 287.0,
+   "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-17T00:26:00+00:00",
+   "time": "2026-11-17T01:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -54,28 +54,28 @@
    "name": "Torrey Pines",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 67,
+   "tempF": 64,
    "short": "Showers And Thunderstorms Likely"
   },
   {
    "name": "La Jolla",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 67,
+   "tempF": 65,
    "short": "Showers And Thunderstorms Likely"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "10",
+   "windMph": "15",
    "windDir": "W",
-   "tempF": 68,
+   "tempF": 67,
    "short": "Showers And Thunderstorms Likely"
   },
   {
    "name": "Ocean Beach",
    "windMph": "10",
    "windDir": "W",
-   "tempF": 68,
+   "tempF": 67,
    "short": "Showers And Thunderstorms Likely"
   }
  ],
