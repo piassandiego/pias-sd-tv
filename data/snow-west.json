@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17T11:50:08+00:00",
+ "updated": "2026-11-17T12:56:24+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 14,
    "period": "Overnight",
-   "short": "Slight Chance Light Snow",
+   "short": "Partly Cloudy",
    "snow3dayIn": 39.0
   },
   {
@@ -34,8 +34,8 @@
    "area": "Brian Head, UT",
    "tempF": 27,
    "period": "Overnight",
-   "short": "Light Snow",
-   "snow3dayIn": 14.3,
+   "short": "Snow Showers",
+   "snow3dayIn": 13.7,
    "snowDepthIn": 19,
    "snowDepthDate": "2026-11-15"
   },
@@ -45,7 +45,7 @@
    "tempF": 35,
    "period": "Overnight",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 9.8,
+   "snow3dayIn": 10.2,
    "snowDepthIn": 7,
    "snowDepthDate": "2026-11-15"
   }
