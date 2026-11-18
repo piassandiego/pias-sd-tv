@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:38:19+00:00",
+ "updated": "2026-11-18T09:55:37+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -13,7 +13,7 @@
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
    "tempF": 23,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Clear",
    "snow3dayIn": 0.1
   },
@@ -21,7 +21,7 @@
    "name": "Snow Valley",
    "area": "Running Springs",
    "tempF": 28,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Clear",
    "snow3dayIn": 0.1
   },
