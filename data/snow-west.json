@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:30:32+00:00",
+ "updated": "2026-11-18T05:57:50+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 14,
    "period": "Tonight",
    "short": "Partly Cloudy",
-   "snow3dayIn": 43.8
+   "snow3dayIn": 46.2
   },
   {
    "name": "Palisades Tahoe",
@@ -24,8 +24,8 @@
    "area": "South Lake Tahoe, CA",
    "tempF": 18,
    "period": "Tonight",
-   "short": "Mostly Cloudy then Chance Light Snow",
-   "snow3dayIn": 20.4,
+   "short": "Mostly Cloudy then Slight Chance Light Snow",
+   "snow3dayIn": 21.3,
    "snowDepthIn": 10,
    "snowDepthDate": "2026-11-16"
   },
@@ -45,7 +45,7 @@
    "tempF": 19,
    "period": "Tonight",
    "short": "Snow",
-   "snow3dayIn": 12.7,
+   "snow3dayIn": 12.6,
    "snowDepthIn": 8,
    "snowDepthDate": "2026-11-16"
   }
