@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-19T14:31:19+00:00",
+ "updated": "2026-11-19T15:54:12+00:00",
  "buoys": [
   {
-   "waveFt": 2.6,
+   "waveFt": 3.0,
    "periodS": 12,
-   "dirDeg": 270.0,
+   "dirDeg": 266.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-19T13:56:00+00:00",
+   "time": "2026-11-19T15:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.0,
-   "periodS": 8,
-   "dirDeg": 273.0,
-   "dir": "W",
+   "waveFt": 2.3,
+   "periodS": 13,
+   "dirDeg": 285.0,
+   "dir": "WNW",
    "waterF": 74,
-   "time": "2026-11-19T13:56:00+00:00",
+   "time": "2026-11-19T15:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 3.3,
-   "periodS": 12,
-   "dirDeg": 273.0,
-   "dir": "W",
+   "waveFt": 3.6,
+   "periodS": 13,
+   "dirDeg": 289.0,
+   "dir": "WNW",
    "waterF": 75,
-   "time": "2026-11-19T13:56:00+00:00",
+   "time": "2026-11-19T14:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 3.9,
+   "waveFt": 3.6,
    "periodS": 13,
-   "dirDeg": 249.0,
-   "dir": "WSW",
+   "dirDeg": 274.0,
+   "dir": "W",
    "waterF": 74,
-   "time": "2026-11-19T13:56:00+00:00",
+   "time": "2026-11-19T15:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,29 +45,29 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "S",
    "tempF": 62,
-   "short": "Mostly Sunny"
+   "short": "Partly Sunny"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 57,
+   "tempF": 58,
    "short": "Partly Sunny"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 58,
-   "short": "Mostly Sunny"
+   "tempF": 59,
+   "short": "Partly Sunny"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "0",
-   "windDir": "",
+   "windMph": "5",
+   "windDir": "S",
    "tempF": 60,
    "short": "Partly Sunny"
   },
