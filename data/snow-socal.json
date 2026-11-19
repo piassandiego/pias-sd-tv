@@ -1,28 +1,28 @@
 {
- "updated": "2026-11-19T02:14:45+00:00",
+ "updated": "2026-11-19T07:12:46+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
-   "tempF": 30,
+   "tempF": 26,
    "period": "Tonight",
-   "short": "Mostly Cloudy then Chance Light Snow",
-   "snow3dayIn": 1.0
+   "short": "Mostly Cloudy then Chance Snow Showers",
+   "snow3dayIn": 0.3
   },
   {
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
-   "tempF": 30,
+   "tempF": 26,
    "period": "Tonight",
-   "short": "Mostly Cloudy then Chance Light Snow",
-   "snow3dayIn": 0.1
+   "short": "Mostly Cloudy then Chance Snow Showers",
+   "snow3dayIn": 0.3
   },
   {
    "name": "Snow Valley",
    "area": "Running Springs",
    "tempF": 32,
    "period": "Tonight",
-   "short": "Mostly Cloudy then Chance Light Snow",
+   "short": "Slight Chance Snow Showers",
    "snow3dayIn": 0.1
   },
   {
@@ -31,7 +31,7 @@
    "tempF": 34,
    "period": "Tonight",
    "short": "Cloudy then Slight Chance T-storms",
-   "snow3dayIn": 0.1
+   "snow3dayIn": 0.0
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports)"

@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-19T05:57:34+00:00",
+ "updated": "2026-11-19T07:12:54+00:00",
  "buoys": [
   {
    "waveFt": 3.0,
    "periodS": 13,
-   "dirDeg": 270.0,
+   "dirDeg": 263.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-19T05:26:00+00:00",
+   "time": "2026-11-19T06:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 2.3,
    "periodS": 12,
-   "dirDeg": 292.0,
+   "dirDeg": 289.0,
    "dir": "WNW",
    "waterF": 74,
-   "time": "2026-11-19T05:26:00+00:00",
+   "time": "2026-11-19T06:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 3.6,
-   "periodS": 11,
-   "dirDeg": 274.0,
-   "dir": "W",
+   "waveFt": 3.3,
+   "periodS": 13,
+   "dirDeg": 240.0,
+   "dir": "WSW",
    "waterF": 75,
-   "time": "2026-11-19T05:26:00+00:00",
+   "time": "2026-11-19T06:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 3.9,
+   "waveFt": 4.3,
    "periodS": 13,
-   "dirDeg": 277.0,
+   "dirDeg": 274.0,
    "dir": "W",
    "waterF": 74,
-   "time": "2026-11-19T05:26:00+00:00",
+   "time": "2026-11-19T06:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,37 +45,37 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "5",
-   "windDir": "NW",
-   "tempF": 66,
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 62,
    "short": "Mostly Cloudy"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
-   "windDir": "NW",
-   "tempF": 62,
+   "windDir": "SE",
+   "tempF": 57,
    "short": "Mostly Cloudy"
   },
   {
    "name": "La Jolla",
-   "windMph": "5",
-   "windDir": "W",
-   "tempF": 61,
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 59,
    "short": "Mostly Cloudy"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "5",
-   "windDir": "NW",
-   "tempF": 64,
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 61,
    "short": "Mostly Cloudy"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "5",
-   "windDir": "W",
-   "tempF": 64,
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 61,
    "short": "Mostly Cloudy"
   }
  ],
