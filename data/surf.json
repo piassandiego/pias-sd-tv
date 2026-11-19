@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-19T15:54:12+00:00",
+ "updated": "2026-11-19T16:59:15+00:00",
  "buoys": [
   {
-   "waveFt": 3.0,
+   "waveFt": 3.3,
    "periodS": 12,
-   "dirDeg": 266.0,
+   "dirDeg": 277.0,
    "dir": "W",
    "waterF": 75,
-   "time": "2026-11-19T15:26:00+00:00",
+   "time": "2026-11-19T16:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
    "waveFt": 2.3,
-   "periodS": 13,
-   "dirDeg": 285.0,
+   "periodS": 11,
+   "dirDeg": 288.0,
    "dir": "WNW",
    "waterF": 74,
-   "time": "2026-11-19T15:26:00+00:00",
+   "time": "2026-11-19T16:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 3.6,
+   "waveFt": 3.9,
    "periodS": 13,
-   "dirDeg": 289.0,
-   "dir": "WNW",
-   "waterF": 75,
-   "time": "2026-11-19T14:56:00+00:00",
+   "dirDeg": 278.0,
+   "dir": "W",
+   "waterF": 74,
+   "time": "2026-11-19T16:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 3.6,
-   "periodS": 13,
-   "dirDeg": 274.0,
-   "dir": "W",
+   "waveFt": 4.3,
+   "periodS": 12,
+   "dirDeg": 284.0,
+   "dir": "WNW",
    "waterF": 74,
-   "time": "2026-11-19T15:26:00+00:00",
+   "time": "2026-11-19T16:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -47,35 +47,35 @@
    "name": "Del Mar",
    "windMph": "10",
    "windDir": "S",
-   "tempF": 62,
+   "tempF": 64,
    "short": "Partly Sunny"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "S",
-   "tempF": 58,
+   "tempF": 61,
    "short": "Partly Sunny"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 59,
+   "tempF": 62,
    "short": "Partly Sunny"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "S",
-   "tempF": 60,
+   "tempF": 63,
    "short": "Partly Sunny"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "5",
+   "windMph": "10",
    "windDir": "S",
-   "tempF": 60,
+   "tempF": 63,
    "short": "Partly Sunny"
   }
  ],
