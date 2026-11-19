@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:14:51+00:00",
+ "updated": "2026-11-19T03:23:54+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 21,
    "period": "Tonight",
    "short": "Heavy Snow",
-   "snow3dayIn": 38.2
+   "snow3dayIn": 36.7
   },
   {
    "name": "Palisades Tahoe",
@@ -15,7 +15,7 @@
    "tempF": 27,
    "period": "Tonight",
    "short": "Heavy Snow",
-   "snow3dayIn": 21.7,
+   "snow3dayIn": 20.7,
    "snowDepthIn": 23,
    "snowDepthDate": "2026-11-17"
   },
@@ -25,7 +25,7 @@
    "tempF": 21,
    "period": "Tonight",
    "short": "Snow",
-   "snow3dayIn": 16.2,
+   "snow3dayIn": 15.5,
    "snowDepthIn": 9,
    "snowDepthDate": "2026-11-17"
   },
@@ -34,7 +34,7 @@
    "area": "Brian Head, UT",
    "tempF": 20,
    "period": "Tonight",
-   "short": "Partly Cloudy",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 4.2,
    "snowDepthIn": 27,
    "snowDepthDate": "2026-11-17"
