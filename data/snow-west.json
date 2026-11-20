@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:27:50+00:00",
+ "updated": "2026-11-20T18:28:54+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -14,8 +14,8 @@
    "area": "Olympic Valley, CA",
    "tempF": 27,
    "period": "Today",
-   "short": "Chance Snow Showers then Widespread Frost",
-   "snow3dayIn": 3.5,
+   "short": "Slight Chance Snow Showers then Widespread Frost",
+   "snow3dayIn": 3.4,
    "snowDepthIn": 36,
    "snowDepthDate": "2026-11-19"
   },
@@ -24,7 +24,7 @@
    "area": "South Lake Tahoe, CA",
    "tempF": 21,
    "period": "Today",
-   "short": "Chance Light Snow then Mostly Sunny",
+   "short": "Mostly Sunny",
    "snow3dayIn": 0.6,
    "snowDepthIn": 24,
    "snowDepthDate": "2026-11-19"
@@ -35,7 +35,9 @@
    "tempF": 22,
    "period": "Today",
    "short": "Sunny",
-   "snow3dayIn": 0.0
+   "snow3dayIn": 0.0,
+   "snowDepthIn": 35,
+   "snowDepthDate": "2026-11-19"
   },
   {
    "name": "Park City",
