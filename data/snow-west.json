@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:26:39+00:00",
+ "updated": "2026-11-20T17:27:50+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -15,7 +15,7 @@
    "tempF": 27,
    "period": "Today",
    "short": "Chance Snow Showers then Widespread Frost",
-   "snow3dayIn": 3.6,
+   "snow3dayIn": 3.5,
    "snowDepthIn": 36,
    "snowDepthDate": "2026-11-19"
   },
@@ -35,9 +35,7 @@
    "tempF": 22,
    "period": "Today",
    "short": "Sunny",
-   "snow3dayIn": 0.1,
-   "snowDepthIn": 35,
-   "snowDepthDate": "2026-11-19"
+   "snow3dayIn": 0.0
   },
   {
    "name": "Park City",
@@ -45,7 +43,7 @@
    "tempF": 31,
    "period": "Today",
    "short": "Chance Light Snow",
-   "snow3dayIn": 1.5,
+   "snow3dayIn": 1.4,
    "snowDepthIn": 22,
    "snowDepthDate": "2026-11-19"
   }
