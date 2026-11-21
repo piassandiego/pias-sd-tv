@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:35:19+00:00",
+ "updated": "2026-11-21T23:33:35+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -23,7 +23,7 @@
    "tempF": 42,
    "period": "This Afternoon",
    "short": "Mostly Sunny",
-   "snow3dayIn": 0.3
+   "snow3dayIn": 0.0
   },
   {
    "name": "Mountain High",
