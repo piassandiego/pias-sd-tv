@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-21T02:09:38+00:00",
+ "updated": "2026-11-21T03:18:17+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 7,
    "period": "Tonight",
-   "short": "Slight Chance Light Snow then Mostly Clear",
-   "snow3dayIn": 2.0
+   "short": "Mostly Clear",
+   "snow3dayIn": 1.9
   },
   {
    "name": "Palisades Tahoe",
@@ -45,7 +45,7 @@
    "tempF": 19,
    "period": "Tonight",
    "short": "Chance Light Snow then Mostly Cloudy",
-   "snow3dayIn": 0.6,
+   "snow3dayIn": 0.5,
    "snowDepthIn": 22,
    "snowDepthDate": "2026-11-19"
   }
