@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:18:17+00:00",
+ "updated": "2026-11-21T05:28:06+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 7,
    "period": "Tonight",
    "short": "Mostly Clear",
-   "snow3dayIn": 1.9
+   "snow3dayIn": 1.8
   },
   {
    "name": "Palisades Tahoe",
@@ -44,7 +44,7 @@
    "area": "Park City, UT",
    "tempF": 19,
    "period": "Tonight",
-   "short": "Chance Light Snow then Mostly Cloudy",
+   "short": "Slight Chance Snow Showers",
    "snow3dayIn": 0.5,
    "snowDepthIn": 22,
    "snowDepthDate": "2026-11-19"
