@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:39:55+00:00",
+ "updated": "2026-11-22T21:37:53+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -15,7 +15,7 @@
    "tempF": 29,
    "period": "This Afternoon",
    "short": "Chance Light Snow",
-   "snow3dayIn": 1.5,
+   "snow3dayIn": 1.4,
    "snowDepthIn": 34,
    "snowDepthDate": "2026-11-21"
   },
