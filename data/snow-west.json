@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T08:47:30+00:00",
+ "updated": "2026-11-22T09:43:48+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
    "tempF": 15,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Mostly Cloudy",
    "snow3dayIn": 0.0
   },
@@ -13,9 +13,9 @@
    "name": "Palisades Tahoe",
    "area": "Olympic Valley, CA",
    "tempF": 23,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Chance Light Snow",
-   "snow3dayIn": 0.4,
+   "snow3dayIn": 0.5,
    "snowDepthIn": 34,
    "snowDepthDate": "2026-11-21"
   },
@@ -24,7 +24,7 @@
    "area": "South Lake Tahoe, CA",
    "tempF": 18,
    "period": "Overnight",
-   "short": "Slight Chance Light Snow",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 20,
    "snowDepthDate": "2026-11-21"
@@ -34,7 +34,7 @@
    "area": "Brian Head, UT",
    "tempF": 15,
    "period": "Overnight",
-   "short": "Mostly Cloudy",
+   "short": "Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 30,
    "snowDepthDate": "2026-11-21"
