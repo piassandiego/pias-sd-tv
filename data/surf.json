@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-22T13:53:45+00:00",
+ "updated": "2026-11-22T14:45:23+00:00",
  "buoys": [
   {
    "waveFt": 2.6,
-   "periodS": 10,
-   "dirDeg": 280.0,
-   "dir": "W",
+   "periodS": 11,
+   "dirDeg": 251.0,
+   "dir": "WSW",
    "waterF": 73,
-   "time": "2026-11-22T13:26:00+00:00",
+   "time": "2026-11-22T13:56:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.0,
-   "periodS": 10,
+   "waveFt": 1.6,
+   "periodS": 12,
    "dirDeg": 288.0,
    "dir": "WNW",
    "waterF": 74,
-   "time": "2026-11-22T13:26:00+00:00",
+   "time": "2026-11-22T13:56:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 3.0,
+   "waveFt": 3.3,
    "periodS": 15,
-   "dirDeg": 282.0,
-   "dir": "WNW",
+   "dirDeg": 236.0,
+   "dir": "SW",
    "waterF": 74,
-   "time": "2026-11-22T12:56:00+00:00",
+   "time": "2026-11-22T13:56:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 3.9,
-   "periodS": 12,
-   "dirDeg": 251.0,
-   "dir": "WSW",
+   "waveFt": 3.6,
+   "periodS": 13,
+   "dirDeg": 206.0,
+   "dir": "SSW",
    "waterF": 74,
-   "time": "2026-11-22T13:26:00+00:00",
+   "time": "2026-11-22T14:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -48,35 +48,35 @@
    "windMph": "5",
    "windDir": "E",
    "tempF": 57,
-   "short": "Mostly Cloudy"
+   "short": "Partly Sunny"
   },
   {
    "name": "Torrey Pines",
    "windMph": "5",
    "windDir": "E",
    "tempF": 53,
-   "short": "Partly Cloudy"
+   "short": "Mostly Sunny"
   },
   {
    "name": "La Jolla",
    "windMph": "5",
    "windDir": "E",
    "tempF": 54,
-   "short": "Partly Cloudy"
+   "short": "Mostly Sunny"
   },
   {
    "name": "Pacific Beach",
    "windMph": "5",
    "windDir": "E",
    "tempF": 55,
-   "short": "Partly Cloudy"
+   "short": "Mostly Sunny"
   },
   {
    "name": "Ocean Beach",
    "windMph": "5",
    "windDir": "E",
-   "tempF": 55,
-   "short": "Partly Cloudy"
+   "tempF": 56,
+   "short": "Mostly Sunny"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
