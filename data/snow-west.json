@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:47:17+00:00",
+ "updated": "2026-11-22T08:47:30+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -15,19 +15,19 @@
    "tempF": 23,
    "period": "Tonight",
    "short": "Chance Light Snow",
-   "snow3dayIn": 0.3,
-   "snowDepthIn": 36,
-   "snowDepthDate": "2026-11-20"
+   "snow3dayIn": 0.4,
+   "snowDepthIn": 34,
+   "snowDepthDate": "2026-11-21"
   },
   {
    "name": "Heavenly",
    "area": "South Lake Tahoe, CA",
    "tempF": 18,
-   "period": "Tonight",
+   "period": "Overnight",
    "short": "Slight Chance Light Snow",
    "snow3dayIn": 0.0,
-   "snowDepthIn": 21,
-   "snowDepthDate": "2026-11-20"
+   "snowDepthIn": 20,
+   "snowDepthDate": "2026-11-21"
   },
   {
    "name": "Brian Head",
@@ -36,8 +36,8 @@
    "period": "Overnight",
    "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
-   "snowDepthIn": 32,
-   "snowDepthDate": "2026-11-20"
+   "snowDepthIn": 30,
+   "snowDepthDate": "2026-11-21"
   },
   {
    "name": "Park City",
@@ -46,8 +46,8 @@
    "period": "Overnight",
    "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
-   "snowDepthIn": 27,
-   "snowDepthDate": "2026-11-20"
+   "snowDepthIn": 25,
+   "snowDepthDate": "2026-11-21"
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports); snow depth: USDA NRCS SNOTEL"
