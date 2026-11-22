@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:45:20+00:00",
+ "updated": "2026-11-22T15:41:45+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -45,9 +45,7 @@
    "tempF": 32,
    "period": "Today",
    "short": "Mostly Cloudy",
-   "snow3dayIn": 0.0,
-   "snowDepthIn": 25,
-   "snowDepthDate": "2026-11-21"
+   "snow3dayIn": 0.0
   }
  ],
  "source": "Mountain weather & snowfall: National Weather Service (not official resort reports); snow depth: USDA NRCS SNOTEL"
