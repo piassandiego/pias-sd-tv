@@ -28,22 +28,22 @@ window.TV_CONFIG = {
     { type: 'live', widget: 'item', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/04-disc-golf-02.mp4' },
     { type: 'live', widget: 'weather', duration: 12 },   // info
-    { type: 'image', src: 'images/feed-2026-11-16-ski-snowboard.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-23-trade-in-holiday.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/05-fitness-01.mp4' },
     { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/06-football-01.mp4' },
     { type: 'live', widget: 'buying', duration: 12 },   // info
-    { type: 'image', src: 'images/feed-2026-11-15-hockey-sticks.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-17-hockey-goalie.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/07-general-01.mp4' },
     { type: 'live', widget: 'item', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/08-general-02.mp4' },
     { type: 'image', src: 'images/services-snow.jpg', duration: 8 },   // info
-    { type: 'image', src: 'images/feed-2026-11-12-text-tradein-loyalty.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-19-tennis.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/09-general-03.mp4' },
     { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/10-golf-01.mp4' },
     { type: 'live', widget: 'snow-socal', duration: 12 },   // info
-    { type: 'image', src: 'images/feed-2026-11-12-lacrosse.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-22-fitness.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/11-golf-02.mp4' },
     { type: 'live', widget: 'item', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/12-hockey-02.mp4' },
@@ -53,22 +53,22 @@ window.TV_CONFIG = {
     { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/14-holidays.mp4' },
     { type: 'image', src: 'images/services-bicycle.jpg', duration: 8 },   // info
-    { type: 'image', src: 'images/feed-2026-11-14-home-gym.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-19-roller-hockey.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/15-lacrosse-01.mp4' },
     { type: 'live', widget: 'item', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/16-shop-online-01.mp4' },
     { type: 'live', widget: 'snow-west', duration: 12 },   // info
-    { type: 'image', src: 'images/feed-2026-11-14-roller-hockey.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-21-lacrosse.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/17-snow-sports-01.mp4' },
     { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/18-snow-sports-02.mp4' },
     { type: 'live', widget: 'textjoin', duration: 12 },   // info
-    { type: 'image', src: 'images/feed-2026-11-10-golf-regrip.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-23-softball.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/19-soccer-01.mp4' },
     { type: 'live', widget: 'item', duration: 12 },   // info (featured)
     { type: 'video', src: 'videos/20-pias-brand-commercial.mp4' },
     { type: 'live', widget: 'surf', duration: 12 },   // info
-    { type: 'image', src: 'images/feed-2026-11-14-trade-in.jpg', duration: 8 },   // social
+    { type: 'image', src: 'images/feed-2026-11-17-golf.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/21-pias-sustainability-commercial.mp4' },
     { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
   ],
