@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-23T19:33:22+00:00",
+ "updated": "2026-11-23T20:48:42+00:00",
  "buoys": [
   {
    "waveFt": 4.3,
-   "periodS": 12,
-   "dirDeg": 266.0,
-   "dir": "W",
-   "waterF": 73,
-   "time": "2026-11-23T18:56:00+00:00",
+   "periodS": 15,
+   "dirDeg": 215.0,
+   "dir": "SW",
+   "waterF": 74,
+   "time": "2026-11-23T20:26:00+00:00",
    "id": "46225",
    "name": "Torrey Pines Outer"
   },
   {
-   "waveFt": 2.6,
-   "periodS": 13,
-   "dirDeg": 294.0,
+   "waveFt": 3.0,
+   "periodS": 12,
+   "dirDeg": 295.0,
    "dir": "WNW",
    "waterF": 74,
-   "time": "2026-11-23T18:56:00+00:00",
+   "time": "2026-11-23T20:26:00+00:00",
    "id": "46254",
    "name": "Scripps Nearshore"
   },
   {
-   "waveFt": 4.9,
-   "periodS": 13,
-   "dirDeg": 246.0,
-   "dir": "WSW",
+   "waveFt": 5.2,
+   "periodS": 17,
+   "dirDeg": 194.0,
+   "dir": "SSW",
    "waterF": 74,
-   "time": "2026-11-23T18:56:00+00:00",
+   "time": "2026-11-23T20:26:00+00:00",
    "id": "46258",
    "name": "Mission Bay West"
   },
   {
-   "waveFt": 4.6,
-   "periodS": 15,
-   "dirDeg": 202.0,
+   "waveFt": 4.9,
+   "periodS": 17,
+   "dirDeg": 192.0,
    "dir": "SSW",
    "waterF": 74,
-   "time": "2026-11-23T18:56:00+00:00",
+   "time": "2026-11-23T20:26:00+00:00",
    "id": "46232",
    "name": "Point Loma South"
   }
@@ -45,38 +45,38 @@
  "spots": [
   {
    "name": "Del Mar",
-   "windMph": "5",
-   "windDir": "SE",
-   "tempF": 66,
-   "short": "Mostly Sunny"
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 67,
+   "short": "Partly Sunny"
   },
   {
    "name": "Torrey Pines",
-   "windMph": "5",
-   "windDir": "SE",
-   "tempF": 67,
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 69,
    "short": "Mostly Sunny"
   },
   {
    "name": "La Jolla",
-   "windMph": "5",
-   "windDir": "SE",
-   "tempF": 66,
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 67,
    "short": "Mostly Sunny"
   },
   {
    "name": "Pacific Beach",
-   "windMph": "5",
-   "windDir": "SE",
-   "tempF": 67,
-   "short": "Mostly Sunny"
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 68,
+   "short": "Partly Sunny"
   },
   {
    "name": "Ocean Beach",
-   "windMph": "5",
-   "windDir": "SE",
-   "tempF": 67,
-   "short": "Mostly Sunny"
+   "windMph": "0",
+   "windDir": "",
+   "tempF": 68,
+   "short": "Partly Sunny"
   }
  ],
  "source": "Source: NOAA / CDIP buoys · wind: National Weather Service"
