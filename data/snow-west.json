@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:28:09+00:00",
+ "updated": "2026-11-24T13:51:54+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -14,7 +14,7 @@
    "area": "Olympic Valley, CA",
    "tempF": 23,
    "period": "Overnight",
-   "short": "Mostly Cloudy",
+   "short": "Partly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 31,
    "snowDepthDate": "2026-11-23"
@@ -32,9 +32,9 @@
   {
    "name": "Brian Head",
    "area": "Brian Head, UT",
-   "tempF": 12,
-   "period": "Overnight",
-   "short": "Mostly Clear",
+   "tempF": 32,
+   "period": "Today",
+   "short": "Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 30,
    "snowDepthDate": "2026-11-23"
@@ -42,9 +42,9 @@
   {
    "name": "Park City",
    "area": "Park City, UT",
-   "tempF": 19,
-   "period": "Overnight",
-   "short": "Mostly Clear",
+   "tempF": 35,
+   "period": "Today",
+   "short": "Mostly Sunny",
    "snow3dayIn": 0.0,
    "snowDepthIn": 21,
    "snowDepthDate": "2026-11-23"
