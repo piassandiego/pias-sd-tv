@@ -1,7 +1,14 @@
 (() => {
   'use strict';
   let cfg = window.TV_CONFIG || {};
-  const usable = c => (c.playlist || []).filter(item => item && (item.src || (item.type === 'live' && item.widget)));
+  // Optional startDate/endDate (YYYY-MM-DD, inclusive) are compared in Pacific time.
+  const laDate = (d = new Date()) => new Intl.DateTimeFormat('en-CA', {timeZone: 'America/Los_Angeles'}).format(d);
+  const onDate = (item, today) => {
+    if (item.startDate && today < item.startDate) return false;
+    if (item.endDate && today > item.endDate) return false;
+    return true;
+  };
+  const usable = c => (c.playlist || []).filter(item => item && (item.src || (item.type === 'live' && item.widget)) && onDate(item, laDate()));
   let list = usable(cfg);
   let ver = Date.now();
   const live = window.TV_LIVE;

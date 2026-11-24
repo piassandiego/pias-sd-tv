@@ -18,9 +18,18 @@ window.TV_CONFIG = {
   // social slide, delete its line; to reorder, move whole lines. Avoid putting the
   // same slide on two lines in a row. Durations are seconds (images 8, live 12).
   // Use lowercase file names with hyphens, no spaces.
+  // Optional startDate / endDate (YYYY-MM-DD, inclusive, America/Los_Angeles)
+  // hide a slide outside that range. Put several dated lines in the same
+  // featured slot; only the one that matches today will play. After Dec 25 the featured
+  // slot falls back to Item of the Day. Dates are re-checked at the end of
+  // each loop, so no manual swap or page reload is needed when the calendar rolls over.
   playlist: [
     { type: 'video', src: 'videos/01-baseball-softball-01.mp4' },
-    { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
+    { type: 'live', widget: 'blackfriday', duration: 12, endDate: '2026-11-26' },   // info (featured) countdown through Thu
+    { type: 'image', src: 'images/black-friday-sale.jpg', duration: 12, startDate: '2026-11-27', endDate: '2026-11-27' },
+    { type: 'image', src: 'images/bogo-weekend.jpg', duration: 12, startDate: '2026-11-28', endDate: '2026-11-29' },
+    { type: 'image', src: 'images/gift-of-sport.jpg', duration: 12, startDate: '2026-11-30', endDate: '2026-12-25' },
+    { type: 'live', widget: 'item', duration: 12, startDate: '2026-12-26' },   // info (featured) after the holiday promo
     { type: 'video', src: 'videos/02-baseball-softball-02.mp4' },
     { type: 'image', src: 'images/return-credit-policy.jpg', duration: 8 },   // info
     { type: 'image', src: 'images/follow-us.jpg', duration: 8 },   // social
@@ -30,7 +39,11 @@ window.TV_CONFIG = {
     { type: 'live', widget: 'weather', duration: 12 },   // info
     { type: 'image', src: 'images/feed-2026-11-23-trade-in-holiday.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/05-fitness-01.mp4' },
-    { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
+    { type: 'live', widget: 'blackfriday', duration: 12, endDate: '2026-11-26' },   // info (featured) countdown through Thu
+    { type: 'image', src: 'images/black-friday-sale.jpg', duration: 12, startDate: '2026-11-27', endDate: '2026-11-27' },
+    { type: 'image', src: 'images/bogo-weekend.jpg', duration: 12, startDate: '2026-11-28', endDate: '2026-11-29' },
+    { type: 'image', src: 'images/gift-of-sport.jpg', duration: 12, startDate: '2026-11-30', endDate: '2026-12-25' },
+    { type: 'live', widget: 'item', duration: 12, startDate: '2026-12-26' },   // info (featured) after the holiday promo
     { type: 'video', src: 'videos/06-football-01.mp4' },
     { type: 'live', widget: 'buying', duration: 12 },   // info
     { type: 'image', src: 'images/feed-2026-11-17-hockey-goalie.jpg', duration: 8 },   // social
@@ -40,7 +53,11 @@ window.TV_CONFIG = {
     { type: 'image', src: 'images/services-snow.jpg', duration: 8 },   // info
     { type: 'image', src: 'images/feed-2026-11-19-tennis.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/09-general-03.mp4' },
-    { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
+    { type: 'live', widget: 'blackfriday', duration: 12, endDate: '2026-11-26' },   // info (featured) countdown through Thu
+    { type: 'image', src: 'images/black-friday-sale.jpg', duration: 12, startDate: '2026-11-27', endDate: '2026-11-27' },
+    { type: 'image', src: 'images/bogo-weekend.jpg', duration: 12, startDate: '2026-11-28', endDate: '2026-11-29' },
+    { type: 'image', src: 'images/gift-of-sport.jpg', duration: 12, startDate: '2026-11-30', endDate: '2026-12-25' },
+    { type: 'live', widget: 'item', duration: 12, startDate: '2026-12-26' },   // info (featured) after the holiday promo
     { type: 'video', src: 'videos/10-golf-01.mp4' },
     { type: 'live', widget: 'snow-socal', duration: 12 },   // info
     { type: 'image', src: 'images/feed-2026-11-22-fitness.jpg', duration: 8 },   // social
@@ -50,7 +67,11 @@ window.TV_CONFIG = {
     { type: 'live', widget: 'reviews', duration: 12 },   // info
     { type: 'image', src: 'images/follow-us.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/13-hockey-ccm-01.mp4' },
-    { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
+    { type: 'live', widget: 'blackfriday', duration: 12, endDate: '2026-11-26' },   // info (featured) countdown through Thu
+    { type: 'image', src: 'images/black-friday-sale.jpg', duration: 12, startDate: '2026-11-27', endDate: '2026-11-27' },
+    { type: 'image', src: 'images/bogo-weekend.jpg', duration: 12, startDate: '2026-11-28', endDate: '2026-11-29' },
+    { type: 'image', src: 'images/gift-of-sport.jpg', duration: 12, startDate: '2026-11-30', endDate: '2026-12-25' },
+    { type: 'live', widget: 'item', duration: 12, startDate: '2026-12-26' },   // info (featured) after the holiday promo
     { type: 'video', src: 'videos/14-holidays.mp4' },
     { type: 'image', src: 'images/services-bicycle.jpg', duration: 8 },   // info
     { type: 'image', src: 'images/feed-2026-11-19-roller-hockey.jpg', duration: 8 },   // social
@@ -60,7 +81,11 @@ window.TV_CONFIG = {
     { type: 'live', widget: 'snow-west', duration: 12 },   // info
     { type: 'image', src: 'images/feed-2026-11-21-lacrosse.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/17-snow-sports-01.mp4' },
-    { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
+    { type: 'live', widget: 'blackfriday', duration: 12, endDate: '2026-11-26' },   // info (featured) countdown through Thu
+    { type: 'image', src: 'images/black-friday-sale.jpg', duration: 12, startDate: '2026-11-27', endDate: '2026-11-27' },
+    { type: 'image', src: 'images/bogo-weekend.jpg', duration: 12, startDate: '2026-11-28', endDate: '2026-11-29' },
+    { type: 'image', src: 'images/gift-of-sport.jpg', duration: 12, startDate: '2026-11-30', endDate: '2026-12-25' },
+    { type: 'live', widget: 'item', duration: 12, startDate: '2026-12-26' },   // info (featured) after the holiday promo
     { type: 'video', src: 'videos/18-snow-sports-02.mp4' },
     { type: 'live', widget: 'textjoin', duration: 12 },   // info
     { type: 'image', src: 'images/feed-2026-11-23-softball.jpg', duration: 8 },   // social
@@ -70,7 +95,11 @@ window.TV_CONFIG = {
     { type: 'live', widget: 'surf', duration: 12 },   // info
     { type: 'image', src: 'images/feed-2026-11-17-golf.jpg', duration: 8 },   // social
     { type: 'video', src: 'videos/21-pias-sustainability-commercial.mp4' },
-    { type: 'live', widget: 'blackfriday', duration: 12 },   // info (featured)
+    { type: 'live', widget: 'blackfriday', duration: 12, endDate: '2026-11-26' },   // info (featured) countdown through Thu
+    { type: 'image', src: 'images/black-friday-sale.jpg', duration: 12, startDate: '2026-11-27', endDate: '2026-11-27' },
+    { type: 'image', src: 'images/bogo-weekend.jpg', duration: 12, startDate: '2026-11-28', endDate: '2026-11-29' },
+    { type: 'image', src: 'images/gift-of-sport.jpg', duration: 12, startDate: '2026-11-30', endDate: '2026-12-25' },
+    { type: 'live', widget: 'item', duration: 12, startDate: '2026-12-26' },   // info (featured) after the holiday promo
   ],
   // ---- Black Friday countdown slide (widget 'blackfriday') ----
   // Counts down using Pacific time. Hides itself automatically after hideAfter.
