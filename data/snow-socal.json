@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-24T14:54:00+00:00",
+ "updated": "2026-11-24T16:00:40+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
    "tempF": 49,
    "period": "Today",
-   "short": "Partly Sunny",
+   "short": "Mostly Sunny",
    "snow3dayIn": 0.0
   },
   {
