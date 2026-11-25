@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:22:41+00:00",
+ "updated": "2026-11-25T06:25:01+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -30,7 +30,7 @@
    "area": "Wrightwood",
    "tempF": 36,
    "period": "Tonight",
-   "short": "Mostly Cloudy",
+   "short": "Cloudy",
    "snow3dayIn": 0.0
   }
  ],
