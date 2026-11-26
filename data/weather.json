@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-26T02:50:54+00:00",
+ "updated": "2026-11-26T03:54:24+00:00",
  "place": "Rancho Peñasquitos · 9925 Carmel Mountain Rd",
  "current": {
-  "tempF": 63,
+  "tempF": 61,
   "text": "Clear",
-  "windMph": 3,
-  "windDir": "NE",
-  "humidity": 68,
+  "windMph": 0,
+  "windDir": "N",
+  "humidity": 72,
   "station": "KMYF",
-  "obsTime": "2026-11-26T02:30:00+00:00"
+  "obsTime": "2026-11-26T03:30:00+00:00"
  },
  "today": {
-  "high": 63,
+  "high": 61,
   "low": 53,
   "short": "Mostly Clear",
   "name": "Tonight"
