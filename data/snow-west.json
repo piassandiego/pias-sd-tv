@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T18:16:22+00:00",
+ "updated": "2026-11-26T19:34:22+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
    "area": "Mammoth Lakes, CA",
-   "tempF": 43,
+   "tempF": 42,
    "period": "Thanksgiving Day",
    "short": "Partly Sunny",
    "snow3dayIn": 0.0
@@ -24,7 +24,7 @@
    "area": "South Lake Tahoe, CA",
    "tempF": 42,
    "period": "Thanksgiving Day",
-   "short": "Partly Sunny",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 15,
    "snowDepthDate": "2026-11-25"
@@ -44,8 +44,8 @@
    "area": "Park City, UT",
    "tempF": 41,
    "period": "Thanksgiving Day",
-   "short": "Mostly Sunny",
-   "snow3dayIn": 1.1,
+   "short": "Partly Sunny",
+   "snow3dayIn": 1.4,
    "snowDepthIn": 19,
    "snowDepthDate": "2026-11-25"
   }

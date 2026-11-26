@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T14:18:25+00:00",
+ "updated": "2026-11-26T19:34:16+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
    "area": "Big Bear Mountain Resort",
-   "tempF": 58,
+   "tempF": 59,
    "period": "Thanksgiving Day",
    "short": "Sunny",
    "snow3dayIn": 0.0
@@ -12,7 +12,7 @@
   {
    "name": "Bear Mountain",
    "area": "Big Bear Mountain Resort",
-   "tempF": 59,
+   "tempF": 60,
    "period": "Thanksgiving Day",
    "short": "Sunny",
    "snow3dayIn": 0.0
@@ -28,7 +28,7 @@
   {
    "name": "Mountain High",
    "area": "Wrightwood",
-   "tempF": 57,
+   "tempF": 60,
    "period": "Thanksgiving Day",
    "short": "Mostly Sunny",
    "snow3dayIn": 0.0
