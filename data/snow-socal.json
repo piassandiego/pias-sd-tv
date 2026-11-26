@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:58:14+00:00",
+ "updated": "2026-11-26T10:10:11+00:00",
  "resorts": [
   {
    "name": "Snow Summit",
@@ -29,7 +29,7 @@
    "name": "Mountain High",
    "area": "Wrightwood",
    "tempF": 44,
-   "period": "Overnight",
+   "period": "Tonight",
    "short": "Clear",
    "snow3dayIn": 0.0
   }
