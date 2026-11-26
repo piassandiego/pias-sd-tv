@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:18:31+00:00",
+ "updated": "2026-11-26T15:31:49+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -14,7 +14,7 @@
    "area": "Olympic Valley, CA",
    "tempF": 48,
    "period": "Thanksgiving Day",
-   "short": "Partly Sunny",
+   "short": "Mostly Cloudy",
    "snow3dayIn": 0.0,
    "snowDepthIn": 26,
    "snowDepthDate": "2026-11-25"
