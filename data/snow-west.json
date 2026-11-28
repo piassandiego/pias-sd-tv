@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:28:51+00:00",
+ "updated": "2026-11-28T00:21:36+00:00",
  "resorts": [
   {
    "name": "Mammoth Mountain",
@@ -7,7 +7,7 @@
    "tempF": 47,
    "period": "This Afternoon",
    "short": "Partly Sunny",
-   "snow3dayIn": 0.6
+   "snow3dayIn": 0.7
   },
   {
    "name": "Palisades Tahoe",
